@@ -1,8 +1,26 @@
-# Keep only tabular/json result files. Drop images, logs, scripts, caches of other types.
+# Result tables + data-visualization images only.
+# Omit raw model outputs, launch scripts, logs, HTML galleries, etc.
 *
 !*/
 !**/*.csv
 !**/*.json
 !**/*.jsonl
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.webp
+!**/*.gif
 !.gitignore
 !README.md
+
+# Raw generations (MOSS / FLUX / intervention outputs)
+**/images/**
+**/gallery/**
+
+# One-off validation snapshots that are single generated frames
+**/validation/*.png
+**/validation/*.jpg
+**/validation/*.jpeg
+
+# Human-review thumbnails of generations (not aggregate plots)
+**/review/**
