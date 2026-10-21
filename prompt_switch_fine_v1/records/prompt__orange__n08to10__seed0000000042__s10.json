@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__orange__n08to10__seed0000000042__s10",
+    "experiment": "prompt_switch_fine",
+    "category": "orange",
+    "seed": 42,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 10,
+    "source_state_id": "orange_n08_s0000000042",
+    "old_baseline_id": "orange_n08_s0000000042",
+    "new_baseline_id": "orange_n10_s0000000042",
+    "old_prompt": "A studio photograph of exactly eight oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "oranges",
+    "index": 19
+  },
+  "seconds": 63.622514963150024,
+  "worker": "gpu0",
+  "old_pixel_validation": true,
+  "completed_at": "2026-09-26T17:10:21+0800"
+}

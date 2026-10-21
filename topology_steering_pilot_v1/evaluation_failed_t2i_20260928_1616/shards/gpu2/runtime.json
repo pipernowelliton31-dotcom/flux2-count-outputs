@@ -1,0 +1,22 @@
+{
+  "pid": 1153468,
+  "gpu": 2,
+  "shard": 2,
+  "count": 20,
+  "command": [
+    "/data/storage22t/lsj/conda/envs/t2i/bin/python",
+    "/home/lsj/layout_v51_conservative/infer_manifest_batch.py",
+    "/data/storage22t/lsj/flux2-count/outputs/topology_steering_pilot_v1/images",
+    "/data/storage22t/lsj/flux2-count/outputs/topology_steering_pilot_v1/evaluation/shards/gpu2/eval_manifest.jsonl",
+    "--out-dir",
+    "/data/storage22t/lsj/flux2-count/outputs/topology_steering_pilot_v1/evaluation/shards/gpu2/v51",
+    "--jobs",
+    "8",
+    "--device",
+    "cuda",
+    "--countgd-root",
+    "/data/storage22t/lsj/repos/CountGD",
+    "--trust-checkpoint"
+  ],
+  "started_at": "2026-09-28T16:16:42+0800"
+}

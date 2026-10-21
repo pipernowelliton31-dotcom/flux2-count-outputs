@@ -1,0 +1,18 @@
+{
+  "apple:s04": "artifacts/loco_apple__step04.pt",
+  "baseball:s04": "artifacts/loco_baseball__step04.pt",
+  "lemon:s04": "artifacts/loco_lemon__step04.pt",
+  "mug:s04": "artifacts/loco_mug__step04.pt",
+  "rubber_duck:s04": "artifacts/loco_rubber_duck__step04.pt",
+  "tennis_ball:s04": "artifacts/loco_tennis_ball__step04.pt",
+  "toy_car:s04": "artifacts/loco_toy_car__step04.pt",
+  "wooden_cube:s04": "artifacts/loco_wooden_cube__step04.pt",
+  "apple:s05": "artifacts/loco_apple__step05.pt",
+  "baseball:s05": "artifacts/loco_baseball__step05.pt",
+  "lemon:s05": "artifacts/loco_lemon__step05.pt",
+  "mug:s05": "artifacts/loco_mug__step05.pt",
+  "rubber_duck:s05": "artifacts/loco_rubber_duck__step05.pt",
+  "tennis_ball:s05": "artifacts/loco_tennis_ball__step05.pt",
+  "toy_car:s05": "artifacts/loco_toy_car__step05.pt",
+  "wooden_cube:s05": "artifacts/loco_wooden_cube__step05.pt"
+}

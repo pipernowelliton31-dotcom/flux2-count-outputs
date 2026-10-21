@@ -1,0 +1,14 @@
+{
+  "index": 319,
+  "id": "wooden_cube_n08_s0000000006",
+  "category": "wooden_cube",
+  "target": 8,
+  "seed": 6,
+  "layout": "4+4",
+  "object_phrase": "wooden cubes",
+  "spec_id": null,
+  "prompt": "A studio photograph of exactly eight wooden cubes on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+  "config_hash": "dc831d9061fe3145a2ee55645aba3eb90b9a1594314c761f8f178d77b4ff321e",
+  "seconds": 57.1483108997345,
+  "rank": 1
+}

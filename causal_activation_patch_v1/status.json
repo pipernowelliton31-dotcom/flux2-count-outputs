@@ -1,0 +1,24 @@
+{
+  "stage": "evaluate",
+  "config_hash": "b893e56383f39e2f0ee08508747dc5d0e1c0a3c1c51a5f7246f84759fea95043",
+  "source_hash": "0b35ca0d73cee301af5ded3ac0f0473d19877569d8a8d8a6d86c313a86aeab01",
+  "n_pairs": 8,
+  "n_capture": 16,
+  "n_exploration": 576,
+  "layers": [
+    "D3",
+    "D7",
+    "S7",
+    "S15"
+  ],
+  "updated_at": "2026-10-13T19:24:17+0800",
+  "audit_passed": true,
+  "problems": 0,
+  "frozen": true,
+  "capture_complete": 16,
+  "capture_total": 16,
+  "patch_complete": 576,
+  "patch_total": 576,
+  "evaluated": 576,
+  "eval_split": "exploration"
+}

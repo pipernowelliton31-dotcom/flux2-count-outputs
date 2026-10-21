@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "structure": {
+      "macro_f1": 0.30940988835725675,
+      "balanced_accuracy": 0.3333333333333333,
+      "recall_row": 1.0,
+      "recall_radial": 0.0,
+      "recall_irregular": 0.0
+    },
+    "count_error": {
+      "r2": -0.0025334164385000246,
+      "mae": 1.4894910081156663,
+      "spearman": -0.02287069601281751
+    },
+    "count_error_residual": {
+      "r2": 0.00046381000076967105,
+      "mae": 1.3584591262151142,
+      "spearman": 0.06691769596888665
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_seeds": [
+        42,
+        0,
+        4,
+        8
+      ],
+      "C": 0.0001,
+      "alpha": 1.0,
+      "residual_alpha": 0.01
+    },
+    {
+      "fold": 1,
+      "test_seeds": [
+        2026,
+        1,
+        5,
+        9
+      ],
+      "C": 0.0001,
+      "alpha": 1.0,
+      "residual_alpha": 0.01
+    },
+    {
+      "fold": 2,
+      "test_seeds": [
+        17,
+        2,
+        6,
+        10
+      ],
+      "C": 0.0001,
+      "alpha": 1.0,
+      "residual_alpha": 1.0
+    },
+    {
+      "fold": 3,
+      "test_seeds": [
+        777,
+        3,
+        7,
+        11
+      ],
+      "C": 0.0001,
+      "alpha": 1.0,
+      "residual_alpha": 0.01
+    }
+  ],
+  "key": "hin_D0_step00",
+  "family": "h_in",
+  "layer": "D0",
+  "step": 0
+}

@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "config_hash": "b56fa9b091c116c9c7727a28b1573cfc8c73dd61d96999cd2725d93a0a9e3bc7",
+  "id": "baseball_n10_s0000000011",
+  "seconds": 14.342627763748169,
+  "worker": "gpu7",
+  "validated_equal_steps": [
+    5,
+    10
+  ],
+  "completed_at": "2026-09-26T17:05:39+0800"
+}

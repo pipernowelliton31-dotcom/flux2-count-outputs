@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "config_id": "h4_specificity_controls_v1",
+  "model": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+  "source": "/home/lsj/flux2-count/outputs/numerosity_1120",
+  "state_root": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1",
+  "labels": "/home/lsj/flux2-count/layout_structure_final.csv",
+  "prior_pilot": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1",
+  "steps": 50,
+  "guidance": 4.0,
+  "height": 1024,
+  "width": 1024,
+  "dtype": "bfloat16",
+  "generator_device": "cpu",
+  "intervention_steps": [
+    0,
+    5,
+    10,
+    20,
+    30,
+    40,
+    49
+  ],
+  "controls": [
+    "H4_aligned",
+    "H4_random_norm",
+    "H4_spatial_block_shuffle",
+    "H4_channel_shuffle"
+  ],
+  "replicates": {
+    "H4_aligned": [
+      0
+    ],
+    "H4_random_norm": [
+      0,
+      1,
+      2
+    ],
+    "H4_spatial_block_shuffle": [
+      0,
+      1,
+      2
+    ],
+    "H4_channel_shuffle": [
+      0,
+      1,
+      2
+    ]
+  },
+  "h4_definition": "z - mean_hw(z) - centered_gaussian_blur_sigma4(z)",
+  "spatial_shuffle": {
+    "block_size": 8,
+    "grid": [
+      16,
+      16
+    ],
+    "same_permutation_across_channels": true
+  },
+  "norm_match": "per-channel FP32 L2 to H4_D-H4_R",
+  "expected": {
+    "total": 350,
+    "pairs": 5,
+    "per_pair_step": 10
+  }
+}

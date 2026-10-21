@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__lemon__n10to08__seed0000000017__s07",
+    "experiment": "prompt_switch_fine",
+    "category": "lemon",
+    "seed": 17,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 7,
+    "source_state_id": "lemon_n10_s0000000017",
+    "old_baseline_id": "lemon_n10_s0000000017",
+    "new_baseline_id": "lemon_n08_s0000000017",
+    "old_prompt": "A studio photograph of exactly ten lemons on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight lemons on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "lemons",
+    "index": 526
+  },
+  "seconds": 62.72667407989502,
+  "worker": "gpu5",
+  "old_pixel_validation": false,
+  "completed_at": "2026-09-26T18:52:49+0800"
+}

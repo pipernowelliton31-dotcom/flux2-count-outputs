@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__rubber_duck__n10to08__seed0000000009__s01",
+    "experiment": "prompt_switch_fine",
+    "category": "rubber_duck",
+    "seed": 9,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 1,
+    "source_state_id": "rubber_duck_n10_s0000000009",
+    "old_baseline_id": "rubber_duck_n10_s0000000009",
+    "new_baseline_id": "rubber_duck_n08_s0000000009",
+    "old_prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "yellow rubber ducks",
+    "index": 2780
+  },
+  "seconds": 71.39962339401245,
+  "worker": "gpu5",
+  "old_pixel_validation": false,
+  "completed_at": "2026-09-27T01:00:03+0800"
+}

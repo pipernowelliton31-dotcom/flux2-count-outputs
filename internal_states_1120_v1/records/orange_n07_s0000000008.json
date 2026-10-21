@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "orange_n07_s0000000008",
+  "index": 871,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/orange_n07_s0000000008.pt",
+  "bytes": 13795490,
+  "seconds": 79.83060145378113,
+  "rank": 1,
+  "gate": false,
+  "completed_at": "2026-09-24T23:44:41+0800"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "pair_id": "bottle_n08",
+    "category": "bottle",
+    "target": 8,
+    "donor_seed": 1,
+    "receiver_seed": 17,
+    "expected_donor_count": 8,
+    "expected_receiver_count": 12,
+    "donor_source_id": "bottle_n08_s0000000001",
+    "receiver_source_id": "bottle_n08_s0000000017",
+    "donor_count": 8,
+    "receiver_count": 12,
+    "donor_prompt": "A studio photograph of exactly eight water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly eight water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text."
+  },
+  {
+    "pair_id": "tennis_ball_n10",
+    "category": "tennis_ball",
+    "target": 10,
+    "donor_seed": 8,
+    "receiver_seed": 2026,
+    "expected_donor_count": 10,
+    "expected_receiver_count": 22,
+    "donor_source_id": "tennis_ball_n10_s0000000008",
+    "receiver_source_id": "tennis_ball_n10_s0000002026",
+    "donor_count": 10,
+    "receiver_count": 22,
+    "donor_prompt": "A studio photograph of exactly ten tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text."
+  }
+]

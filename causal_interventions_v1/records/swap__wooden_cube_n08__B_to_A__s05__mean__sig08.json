@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__wooden_cube_n08__B_to_A__s05__mean__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "wooden_cube_n08",
+    "category": "wooden_cube",
+    "target": 8,
+    "direction": "B_to_A",
+    "step": 5,
+    "intervention": "mean",
+    "sigma": 8,
+    "donor_source_id": "wooden_cube_n08_s0000000009",
+    "receiver_source_id": "wooden_cube_n08_s0000000001",
+    "donor_seed": 9,
+    "receiver_seed": 1,
+    "donor_prompt": "A studio photograph of exactly eight wooden cubes on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly eight wooden cubes on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "wooden cubes",
+    "index": 931
+  },
+  "image": "images/swap__wooden_cube_n08__B_to_A__s05__mean__sig08.png",
+  "seconds": 69.28659415245056,
+  "worker": "gpu1",
+  "completed_at": "2026-09-25T05:15:46+0800",
+  "perturbation_l2": 7.07248067855835,
+  "perturbation_rms": 0.009767118841409683,
+  "relative_l2": 0.009972826577723026
+}

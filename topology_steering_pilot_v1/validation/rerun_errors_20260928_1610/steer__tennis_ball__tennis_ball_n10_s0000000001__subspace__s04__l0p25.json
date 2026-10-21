@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "attempts": 1,
+  "job": {
+    "category": "tennis_ball",
+    "source_id": "tennis_ball_n10_s0000000001",
+    "trajectory_id": "tennis_ball_n10_s0000000001__to08",
+    "prompt": "A studio photograph of exactly ten tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "baseline_image": "/home/lsj/flux2-count/outputs/numerosity_1120/images/tennis_ball_n10_s0000000001.png",
+    "baseline_K": 3,
+    "baseline_N": 15,
+    "baseline_occupancy": "[5,5,5]",
+    "target": 10,
+    "seed": 1,
+    "object_text": "tennis balls",
+    "method": "subspace",
+    "step": 4,
+    "artifact_step": 4,
+    "lambda": 0.25,
+    "id": "steer__tennis_ball__tennis_ball_n10_s0000000001__subspace__s04__l0p25",
+    "index": 63,
+    "artifact": "artifacts/loco_tennis_ball__step04.pt"
+  },
+  "worker": "gpu3",
+  "error": "RuntimeError('Subspace BF16 feature gate failed: 0.03114289417862892')",
+  "failed_at": "2026-09-28T16:09:57+0800"
+}

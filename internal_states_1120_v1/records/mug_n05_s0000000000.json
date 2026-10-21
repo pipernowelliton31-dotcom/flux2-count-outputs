@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "mug_n05_s0000000000",
+  "index": 295,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/mug_n05_s0000000000.pt",
+  "bytes": 13795157,
+  "seconds": 79.56408858299255,
+  "rank": 1,
+  "gate": false,
+  "completed_at": "2026-09-24T21:37:00+0800"
+}

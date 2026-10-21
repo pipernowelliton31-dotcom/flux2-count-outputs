@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "wooden_cube_n08_s0000000005",
+  "index": 679,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/wooden_cube_n08_s0000000005.pt",
+  "bytes": 13796109,
+  "seconds": 79.9754524230957,
+  "rank": 1,
+  "gate": false,
+  "completed_at": "2026-09-24T23:02:04+0800"
+}

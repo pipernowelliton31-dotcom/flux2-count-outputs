@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "structure": {
+      "macro_f1": 0.4262926562688842,
+      "balanced_accuracy": 0.45171168489330366,
+      "recall_row": 0.831958762886598,
+      "recall_radial": 0.2553191489361702,
+      "recall_irregular": 0.26785714285714285
+    },
+    "count_error": {
+      "r2": 0.38235405660198407,
+      "mae": 1.1491058965346643,
+      "spearman": 0.43692824083421883
+    },
+    "count_error_residual": {
+      "r2": 0.21554486471109113,
+      "mae": 1.172069648472825,
+      "spearman": 0.44046626370796627
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_seeds": [
+        42,
+        0,
+        4,
+        8
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 1,
+      "test_seeds": [
+        2026,
+        1,
+        5,
+        9
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 2,
+      "test_seeds": [
+        17,
+        2,
+        6,
+        10
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 3,
+      "test_seeds": [
+        777,
+        3,
+        7,
+        11
+      ],
+      "C": 0.01,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    }
+  ],
+  "key": "hin_S15_step00",
+  "family": "h_in",
+  "layer": "S15",
+  "step": 0
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rows": 3200,
+  "diagnostic_only": true,
+  "bands": [
+    "L16",
+    "B8",
+    "B4",
+    "H4"
+  ]
+}

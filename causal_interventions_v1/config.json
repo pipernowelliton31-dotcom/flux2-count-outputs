@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "config_id": "causal_interventions_v1",
+  "model": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+  "source": "/home/lsj/flux2-count/outputs/numerosity_1120",
+  "state_root": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1",
+  "labels": "/home/lsj/flux2-count/layout_structure_final.csv",
+  "steps": 50,
+  "guidance": 4.0,
+  "height": 1024,
+  "width": 1024,
+  "dtype": "bfloat16",
+  "generator_device": "cpu",
+  "prompt_steps": [
+    5,
+    10,
+    20,
+    30,
+    40,
+    49
+  ],
+  "swap_steps": [
+    0,
+    5,
+    10,
+    20,
+    30,
+    40,
+    49
+  ],
+  "main_sigma": 8,
+  "sensitivity_sigmas": [
+    4,
+    16
+  ],
+  "gaussian_truncate": 3.0,
+  "padding": "reflect",
+  "expected": {
+    "prompt_switch": 1920,
+    "scaffold_swap": 1004,
+    "total": 2924
+  }
+}

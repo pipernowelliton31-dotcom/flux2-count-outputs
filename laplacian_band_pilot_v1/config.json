@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "config_id": "laplacian_band_pilot_v1",
+  "model": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+  "source": "/home/lsj/flux2-count/outputs/numerosity_1120",
+  "state_root": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1",
+  "labels": "/home/lsj/flux2-count/layout_structure_final.csv",
+  "steps": 50,
+  "guidance": 4.0,
+  "height": 1024,
+  "width": 1024,
+  "dtype": "bfloat16",
+  "generator_device": "cpu",
+  "intervention_steps": [
+    0,
+    5,
+    10,
+    20,
+    30,
+    40,
+    49
+  ],
+  "interventions": [
+    "L16",
+    "B8",
+    "B4",
+    "H4",
+    "L16_B8",
+    "L16_B8_B4",
+    "B4_random_sham"
+  ],
+  "gaussian_sigmas": [
+    4,
+    8,
+    16
+  ],
+  "gaussian_truncate": 3.0,
+  "padding": "reflect",
+  "sham": "deterministic B4-filtered Gaussian noise, per-channel L2 matched to B4_A-B4_B",
+  "expected": {
+    "total": 98,
+    "pairs": 2
+  }
+}

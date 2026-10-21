@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__mug_n08_s0000000002__to10__s04",
+  "job": {
+    "id": "prompt__mug__n08to10__seed0000000002__s04",
+    "experiment": "prompt_switch_fine",
+    "category": "mug",
+    "seed": 2,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 4,
+    "source_state_id": "mug_n08_s0000000002",
+    "old_baseline_id": "mug_n08_s0000000002",
+    "new_baseline_id": "mug_n10_s0000000002",
+    "old_prompt": "A studio photograph of exactly eight ceramic mugs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten ceramic mugs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "ceramic mugs",
+    "index": 1253,
+    "velocity_index": 1253,
+    "velocity_id": "velocity__mug_n08_s0000000002__to10__s04"
+  },
+  "old_reproduction": {
+    "comparable": true,
+    "equal": true,
+    "max_abs": 0.0
+  },
+  "seconds": 2.3158388137817383,
+  "worker": "gpu1",
+  "completed_at": "2026-09-27T16:46:56+0800"
+}

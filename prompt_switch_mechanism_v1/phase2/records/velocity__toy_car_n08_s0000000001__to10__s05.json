@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__toy_car_n08_s0000000001__to10__s05",
+  "job": {
+    "id": "prompt__toy_car__n08to10__seed0000000001__s05",
+    "experiment": "prompt_switch_fine",
+    "category": "toy_car",
+    "seed": 1,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 5,
+    "source_state_id": "toy_car_n08_s0000000001",
+    "old_baseline_id": "toy_car_n08_s0000000001",
+    "new_baseline_id": "toy_car_n10_s0000000001",
+    "old_prompt": "A studio photograph of exactly eight toy cars on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten toy cars on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "toy cars",
+    "index": 1074,
+    "velocity_index": 1074,
+    "velocity_id": "velocity__toy_car_n08_s0000000001__to10__s05"
+  },
+  "old_reproduction": {
+    "comparable": true,
+    "equal": true,
+    "max_abs": 0.0
+  },
+  "seconds": 2.514857769012451,
+  "worker": "gpu3",
+  "completed_at": "2026-09-27T16:46:02+0800"
+}

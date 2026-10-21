@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "rubber_duck_n08_s0000000011",
+  "index": 1098,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/rubber_duck_n08_s0000000011.pt",
+  "bytes": 13796109,
+  "seconds": 76.36939430236816,
+  "rank": 0,
+  "gate": false,
+  "completed_at": "2026-09-25T00:22:27+0800"
+}

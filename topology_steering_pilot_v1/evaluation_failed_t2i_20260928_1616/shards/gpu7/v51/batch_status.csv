@@ -1,0 +1,2 @@
+﻿id,image_path,object_text,category,target,seed,cache_hit,countgd_main,image_sha256,width,height,message,status
+steer__lemon__lemon_n10_s0000000001__probe__s04__l0p5,steer__lemon__lemon_n10_s0000000001__probe__s04__l0p5.png,lemons,lemons,10,1,False,0,2f186516b7c91d4f3d6f9957d60dcc9279e0ef7e61adcd47b8217c61094678f1,1024,1024,RuntimeError: Could not import CountGD modules. Run this script inside the CountGD environment and make sure --countgd-root points to the CountGD repository.,detection_error

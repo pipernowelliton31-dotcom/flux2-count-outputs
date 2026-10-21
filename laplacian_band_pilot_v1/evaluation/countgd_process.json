@@ -1,0 +1,20 @@
+{
+  "pid": 3408205,
+  "command": [
+    "/data/storage22t/lsj/conda/envs/countgd/bin/python",
+    "/home/lsj/layout_v51_conservative/infer_manifest_batch.py",
+    "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images",
+    "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/evaluation/eval_manifest.jsonl",
+    "--out-dir",
+    "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/evaluation/v51",
+    "--jobs",
+    "64",
+    "--device",
+    "cuda",
+    "--countgd-root",
+    "/data/storage22t/lsj/repos/CountGD",
+    "--trust-checkpoint"
+  ],
+  "log": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/evaluation/countgd.log",
+  "started_at": "2026-09-25T17:44:33+0800"
+}

@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "structure": {
+      "macro_f1": 0.525826518183758,
+      "balanced_accuracy": 0.5205971443194518,
+      "recall_row": 0.9257731958762887,
+      "recall_radial": 0.4574468085106383,
+      "recall_irregular": 0.17857142857142858
+    },
+    "count_error": {
+      "r2": 0.444361514046388,
+      "mae": 1.1409999791000571,
+      "spearman": 0.5661041063006841
+    },
+    "count_error_residual": {
+      "r2": 0.13546534861902837,
+      "mae": 1.3051350492831262,
+      "spearman": 0.3137995663774738
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_seeds": [
+        42,
+        0,
+        4,
+        8
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 1,
+      "test_seeds": [
+        2026,
+        1,
+        5,
+        9
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 2,
+      "test_seeds": [
+        17,
+        2,
+        6,
+        10
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 3,
+      "test_seeds": [
+        777,
+        3,
+        7,
+        11
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    }
+  ],
+  "key": "hin_D3_step30",
+  "family": "h_in",
+  "layer": "D3",
+  "step": 30
+}

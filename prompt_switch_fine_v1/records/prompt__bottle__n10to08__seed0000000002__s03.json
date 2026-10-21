@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__bottle__n10to08__seed0000000002__s03",
+    "experiment": "prompt_switch_fine",
+    "category": "bottle",
+    "seed": 2,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 3,
+    "source_state_id": "bottle_n10_s0000000002",
+    "old_baseline_id": "bottle_n10_s0000000002",
+    "new_baseline_id": "bottle_n08_s0000000002",
+    "old_prompt": "A studio photograph of exactly ten water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "water bottles",
+    "index": 1362
+  },
+  "seconds": 68.5858051776886,
+  "worker": "gpu5",
+  "old_pixel_validation": false,
+  "completed_at": "2026-09-26T21:18:21+0800"
+}

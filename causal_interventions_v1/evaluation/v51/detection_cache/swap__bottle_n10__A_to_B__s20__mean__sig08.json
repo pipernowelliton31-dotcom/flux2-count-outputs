@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "swap__bottle_n10__A_to_B__s20__mean__sig08",
+  "object_text": "water bottles",
+  "image_sha256": "634132ec3091f793424b1cc9538fc679ac0289e45d8c15f2c34985f489e017a7",
+  "confidence_threshold": 0.26,
+  "image_path": "swap__bottle_n10__A_to_B__s20__mean__sig08.png"
+}

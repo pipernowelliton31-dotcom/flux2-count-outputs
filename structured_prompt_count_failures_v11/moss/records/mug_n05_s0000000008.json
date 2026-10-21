@@ -1,0 +1,14 @@
+{
+  "index": 67,
+  "id": "mug_n05_s0000000008",
+  "category": "mug",
+  "target": 5,
+  "seed": 8,
+  "original_countgd": 6,
+  "layout": "1x5",
+  "spec_id": "cups_5_1x5",
+  "object_phrase": "cups",
+  "prompt": "A studio photograph of exactly five cups on a plain light gray surface against a plain light gray background. The cups are arranged in a single horizontal row of exactly five cups. All objects are fully visible. No other objects. No text.",
+  "config_hash": "87ee2f6892ee2e2d3a772b1c340644c804a3b5f56abdbe18ca62fc2f3b07f777",
+  "seconds": 51.54916024208069
+}

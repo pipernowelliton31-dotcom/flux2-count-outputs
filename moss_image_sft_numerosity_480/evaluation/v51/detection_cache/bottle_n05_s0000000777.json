@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "bottle_n05_s0000000777",
+  "object_text": "water bottles",
+  "image_sha256": "c705d60dae9e8f3d96727d029a7b236eb88cf9480357307bda332598a715be42",
+  "confidence_threshold": 0.26,
+  "image_path": "bottle_n05_s0000000777.png"
+}

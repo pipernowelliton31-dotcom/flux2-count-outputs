@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "config_id": "topology_steering_pilot_v1",
+  "model": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+  "mechanism_root": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_mechanism_v1",
+  "fine_root": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1",
+  "state_root": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/states",
+  "source": "/home/lsj/flux2-count/outputs/numerosity_1120",
+  "internal_root": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1",
+  "projection_path": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1/metadata/projection_4096_to_128.pt",
+  "projection_sha256": "570b4177bab4606803fd2c0b2a692ea42a7386994aa972fad19282c452880952",
+  "steps": 50,
+  "guidance": 4.0,
+  "height": 1024,
+  "width": 1024,
+  "layer": "S7",
+  "layer_index": 7,
+  "safety_relative_l2_cap": 0.2,
+  "expected_jobs": 160,
+  "source_hashes": {
+    "source_manifest": "044ebdd65f71643b42025d5bbb17b16ca0082ebc5c72d4e9587b9b71f53d3848",
+    "phase1_sequences": "a22a895a0a342db70ae2dab0c8d0a3ec21494f625de9db66ce3a0e7b78ed6676",
+    "phase2_order": "748ad24a36da1f26f61a8ac3a3f2ab99a6cf74e1a1221f89fbda37b0eaeb0468",
+    "projection_file": "94cd3473f8b2fe69ad7c7744df6d2908b8aa5625fe21165e0ff57b162eb50254"
+  }
+}

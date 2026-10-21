@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "prompt__orange__n08to10__seed0000000042__s10",
+    "experiment": "prompt_switch",
+    "category": "orange",
+    "seed": 42,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 10,
+    "source_state_id": "orange_n08_s0000000042",
+    "old_baseline_id": "orange_n08_s0000000042",
+    "new_baseline_id": "orange_n10_s0000000042",
+    "old_prompt": "A studio photograph of exactly eight oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "oranges",
+    "index": 1197
+  },
+  "image": "images/prompt__orange__n08to10__seed0000000042__s10.png",
+  "seconds": 61.72712755203247,
+  "worker": "gpu3",
+  "completed_at": "2026-09-25T05:44:05+0800",
+  "perturbation_l2": 0.0,
+  "perturbation_rms": 0.0,
+  "relative_l2": 0.0
+}

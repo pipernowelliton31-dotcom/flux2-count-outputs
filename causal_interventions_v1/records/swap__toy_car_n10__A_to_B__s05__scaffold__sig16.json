@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__toy_car_n10__A_to_B__s05__scaffold__sig16",
+    "experiment": "scaffold_swap",
+    "pair_id": "toy_car_n10",
+    "category": "toy_car",
+    "target": 10,
+    "direction": "A_to_B",
+    "step": 5,
+    "intervention": "scaffold",
+    "sigma": 16,
+    "donor_source_id": "toy_car_n10_s0000000007",
+    "receiver_source_id": "toy_car_n10_s0000000003",
+    "donor_seed": 7,
+    "receiver_seed": 3,
+    "donor_prompt": "A studio photograph of exactly ten toy cars on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten toy cars on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "toy cars",
+    "index": 825
+  },
+  "image": "images/swap__toy_car_n10__A_to_B__s05__scaffold__sig16.png",
+  "seconds": 68.74622750282288,
+  "worker": "gpu1",
+  "completed_at": "2026-09-25T05:02:52+0800",
+  "perturbation_l2": 19.139421463012695,
+  "perturbation_rms": 0.026432976126670837,
+  "relative_l2": 0.02698400989174843
+}

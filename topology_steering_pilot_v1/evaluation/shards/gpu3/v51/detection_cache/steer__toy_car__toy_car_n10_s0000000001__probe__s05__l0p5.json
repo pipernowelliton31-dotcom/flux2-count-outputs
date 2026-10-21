@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "steer__toy_car__toy_car_n10_s0000000001__probe__s05__l0p5",
+  "object_text": "toy cars",
+  "image_sha256": "2daf14869a4b8fa7f3fb7f7bf3a968dbda586e53b0164e57009b02ba10dfab40",
+  "confidence_threshold": 0.26,
+  "image_path": "steer__toy_car__toy_car_n10_s0000000001__probe__s05__l0p5.png"
+}

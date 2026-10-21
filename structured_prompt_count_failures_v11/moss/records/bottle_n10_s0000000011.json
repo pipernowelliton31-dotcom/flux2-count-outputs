@@ -1,0 +1,14 @@
+{
+  "index": 64,
+  "id": "bottle_n10_s0000000011",
+  "category": "bottle",
+  "target": 10,
+  "seed": 11,
+  "original_countgd": 11,
+  "layout": "5+5",
+  "spec_id": "bottles_10_5_5",
+  "object_phrase": "bottles",
+  "prompt": "A studio photograph of exactly ten bottles on a plain light gray surface against a plain light gray background. The bottles are arranged in two horizontal rows, with exactly five bottles in the back row and exactly five bottles in the front row. All objects are fully visible. No other objects. No text.",
+  "config_hash": "87ee2f6892ee2e2d3a772b1c340644c804a3b5f56abdbe18ca62fc2f3b07f777",
+  "seconds": 52.79288363456726
+}

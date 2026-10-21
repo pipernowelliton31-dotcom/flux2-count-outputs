@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "config_hash": "b56fa9b091c116c9c7727a28b1573cfc8c73dd61d96999cd2725d93a0a9e3bc7",
+  "id": "rubber_duck_n10_s0000000008",
+  "seconds": 14.576651334762573,
+  "worker": "gpu5",
+  "validated_equal_steps": [
+    5,
+    10
+  ],
+  "completed_at": "2026-09-26T17:02:46+0800"
+}

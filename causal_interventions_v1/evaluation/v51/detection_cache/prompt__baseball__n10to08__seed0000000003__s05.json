@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "prompt__baseball__n10to08__seed0000000003__s05",
+  "object_text": "baseballs",
+  "image_sha256": "440f8d833d7b61cad74d946c1884131ad98005bf2960c7d887321b48eb5bb14d",
+  "confidence_threshold": 0.26,
+  "image_path": "prompt__baseball__n10to08__seed0000000003__s05.png"
+}

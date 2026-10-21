@@ -1,0 +1,14 @@
+{
+  "index": 136,
+  "id": "lemon_n08_s0000000000",
+  "category": "lemon",
+  "target": 8,
+  "seed": 0,
+  "layout": "4+4",
+  "object_phrase": "lemons",
+  "spec_id": "lemon_8_4+4",
+  "prompt": "A studio photograph of exactly eight lemons on a plain light gray surface against a plain light gray background. The lemons are arranged in two horizontal rows, with exactly four lemons in the back row and exactly four lemons in the front row. All objects are fully visible. No other objects. No text.",
+  "config_hash": "f172149621d8ade92bfd38e4163fdf51c7808530556daca749dac764413bcc3e",
+  "seconds": 57.04775285720825,
+  "rank": 0
+}

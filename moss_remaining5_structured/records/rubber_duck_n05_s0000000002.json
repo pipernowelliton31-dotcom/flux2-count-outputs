@@ -1,0 +1,14 @@
+{
+  "index": 183,
+  "id": "rubber_duck_n05_s0000000002",
+  "category": "rubber_duck",
+  "target": 5,
+  "seed": 2,
+  "layout": "1x5",
+  "object_phrase": "yellow rubber ducks",
+  "spec_id": "rubber_duck_5_1x5",
+  "prompt": "A studio photograph of exactly five yellow rubber ducks on a plain light gray surface against a plain light gray background. The yellow rubber ducks are arranged in a single horizontal row of exactly five yellow rubber ducks. All objects are fully visible. No other objects. No text.",
+  "config_hash": "f172149621d8ade92bfd38e4163fdf51c7808530556daca749dac764413bcc3e",
+  "seconds": 55.53869938850403,
+  "rank": 0
+}

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__tennis_ball__n08to10__seed0000000005__s09",
+    "experiment": "prompt_switch_fine",
+    "category": "tennis_ball",
+    "seed": 5,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 9,
+    "source_state_id": "tennis_ball_n08_s0000000005",
+    "old_baseline_id": "tennis_ball_n08_s0000000005",
+    "new_baseline_id": "tennis_ball_n10_s0000000005",
+    "old_prompt": "A studio photograph of exactly eight tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "tennis balls",
+    "index": 1838
+  },
+  "seconds": 63.223161935806274,
+  "worker": "gpu3",
+  "old_pixel_validation": false,
+  "completed_at": "2026-09-26T22:35:11+0800"
+}

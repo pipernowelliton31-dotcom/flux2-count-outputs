@@ -1,0 +1,1118 @@
+{
+  "status": "complete",
+  "config_id": "causal_activation_patch_v1",
+  "config_hash": "b893e56383f39e2f0ee08508747dc5d0e1c0a3c1c51a5f7246f84759fea95043",
+  "source_hash": "0b35ca0d73cee301af5ded3ac0f0473d19877569d8a8d8a6d86c313a86aeab01",
+  "job": {
+    "id": "expl__rubber_duck_n10__S15__s08__output__a1p0__shuffle__r0",
+    "stage": "exploration",
+    "experiment": "causal_activation_patch",
+    "pair_id": "rubber_duck_n10",
+    "split": "exploration",
+    "category": "rubber_duck",
+    "target": 10,
+    "layer": "S15",
+    "step": 8,
+    "operator": "output",
+    "alpha": 1.0,
+    "condition": "shuffle",
+    "replicate": 0,
+    "donor_source_id": "rubber_duck_n10_s0000000004",
+    "receiver_source_id": "rubber_duck_n10_s0000000001",
+    "donor_seed": 4,
+    "receiver_seed": 1,
+    "seed": 1,
+    "prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "donor_prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "yellow rubber ducks",
+    "donor_n": 10,
+    "receiver_n": 15,
+    "donor_k": 2.0,
+    "receiver_k": 3.0,
+    "donor_occupancy": "[5, 5]",
+    "receiver_occupancy": "[5, 5, 5]",
+    "donor_family": "row",
+    "receiver_family": "row",
+    "index": 425
+  },
+  "image": "images/expl__rubber_duck_n10__S15__s08__output__a1p0__shuffle__r0.png",
+  "seconds": 89.52015495300293,
+  "worker": "gpu7",
+  "completed_at": "2026-10-13T17:45:42+0800",
+  "hook_counts": {
+    "patch_applied": 1,
+    "uncond_patch_blocked": 50,
+    "d3_pre_cond": 51,
+    "d3_pre_uncond": 50,
+    "d3_post_cond": 51,
+    "d3_post_uncond": 50,
+    "d7_pre_cond": 51,
+    "d7_pre_uncond": 50,
+    "d7_post_cond": 51,
+    "d7_post_uncond": 50,
+    "s7_pre_cond": 51,
+    "s7_pre_uncond": 50,
+    "s7_post_cond": 51,
+    "s7_post_uncond": 50,
+    "s15_pre_cond": 51,
+    "s15_pre_uncond": 50,
+    "s15_post_cond": 51,
+    "s15_post_uncond": 50
+  },
+  "hook_event_count": 800,
+  "hook_events_head": [
+    {
+      "layer": "D3",
+      "event": "pre",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D3",
+      "event": "post",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D7",
+      "event": "pre",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D7",
+      "event": "post",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S7",
+      "event": "pre",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S7",
+      "event": "post",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S15",
+      "event": "pre",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S15",
+      "event": "post",
+      "step": 0,
+      "branch": "conditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D3",
+      "event": "pre",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D3",
+      "event": "post",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D7",
+      "event": "pre",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D7",
+      "event": "post",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S7",
+      "event": "pre",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S7",
+      "event": "post",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S15",
+      "event": "pre",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S15",
+      "event": "post",
+      "step": 0,
+      "branch": "unconditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D3",
+      "event": "pre",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D3",
+      "event": "post",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D7",
+      "event": "pre",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D7",
+      "event": "post",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S7",
+      "event": "pre",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S7",
+      "event": "post",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S15",
+      "event": "pre",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S15",
+      "event": "post",
+      "step": 1,
+      "branch": "conditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D3",
+      "event": "pre",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D3",
+      "event": "post",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D7",
+      "event": "pre",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D7",
+      "event": "post",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S7",
+      "event": "pre",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S7",
+      "event": "post",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S15",
+      "event": "pre",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S15",
+      "event": "post",
+      "step": 1,
+      "branch": "unconditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D3",
+      "event": "pre",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D3",
+      "event": "post",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "D7",
+      "event": "pre",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4096,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512
+    },
+    {
+      "layer": "D7",
+      "event": "post",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S7",
+      "event": "pre",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S7",
+      "event": "post",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    },
+    {
+      "layer": "S15",
+      "event": "pre",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "shape": [
+        1,
+        4608,
+        4096
+      ],
+      "dtype": "bfloat16",
+      "text_tokens": 512,
+      "encoder_is_none": true
+    },
+    {
+      "layer": "S15",
+      "event": "post",
+      "step": 2,
+      "branch": "conditional",
+      "mode": "patch",
+      "joint_shape": [
+        1,
+        4608,
+        4096
+      ],
+      "image_shape": [
+        1,
+        4096,
+        4096
+      ],
+      "text_shape": [
+        1,
+        512,
+        4096
+      ],
+      "dtype": "bfloat16"
+    }
+  ],
+  "warnings": [],
+  "num_text_tokens": 512,
+  "schedule": {
+    "0": {
+      "step_index": 0,
+      "scheduler_timestep": 1000.0,
+      "sigma": 1.0
+    },
+    "1": {
+      "step_index": 1,
+      "scheduler_timestep": 997.30908203125,
+      "sigma": 0.9973090887069702
+    },
+    "2": {
+      "step_index": 2,
+      "scheduler_timestep": 994.5213623046875,
+      "sigma": 0.9945213794708252
+    },
+    "3": {
+      "step_index": 3,
+      "scheduler_timestep": 991.631591796875,
+      "sigma": 0.9916315674781799
+    },
+    "4": {
+      "step_index": 4,
+      "scheduler_timestep": 988.6339721679688,
+      "sigma": 0.9886339902877808
+    },
+    "5": {
+      "step_index": 5,
+      "scheduler_timestep": 985.5225219726562,
+      "sigma": 0.9855225086212158
+    },
+    "6": {
+      "step_index": 6,
+      "scheduler_timestep": 982.2904663085938,
+      "sigma": 0.9822904467582703
+    },
+    "7": {
+      "step_index": 7,
+      "scheduler_timestep": 978.9306640625,
+      "sigma": 0.978930652141571
+    },
+    "8": {
+      "step_index": 8,
+      "scheduler_timestep": 975.4354858398438,
+      "sigma": 0.9754354953765869
+    },
+    "9": {
+      "step_index": 9,
+      "scheduler_timestep": 971.79638671875,
+      "sigma": 0.9717963933944702
+    },
+    "10": {
+      "step_index": 10,
+      "scheduler_timestep": 968.004638671875,
+      "sigma": 0.9680046439170837
+    },
+    "11": {
+      "step_index": 11,
+      "scheduler_timestep": 964.0501098632812,
+      "sigma": 0.9640501141548157
+    },
+    "12": {
+      "step_index": 12,
+      "scheduler_timestep": 959.9221801757812,
+      "sigma": 0.959922194480896
+    },
+    "13": {
+      "step_index": 13,
+      "scheduler_timestep": 955.6093139648438,
+      "sigma": 0.9556093215942383
+    },
+    "14": {
+      "step_index": 14,
+      "scheduler_timestep": 951.0986938476562,
+      "sigma": 0.9510986804962158
+    },
+    "15": {
+      "step_index": 15,
+      "scheduler_timestep": 946.3763427734375,
+      "sigma": 0.9463763236999512
+    },
+    "16": {
+      "step_index": 16,
+      "scheduler_timestep": 941.427001953125,
+      "sigma": 0.9414269924163818
+    },
+    "17": {
+      "step_index": 17,
+      "scheduler_timestep": 936.2340087890625,
+      "sigma": 0.9362339973449707
+    },
+    "18": {
+      "step_index": 18,
+      "scheduler_timestep": 930.7789306640625,
+      "sigma": 0.9307789206504822
+    },
+    "19": {
+      "step_index": 19,
+      "scheduler_timestep": 925.0411987304688,
+      "sigma": 0.9250411987304688
+    },
+    "20": {
+      "step_index": 20,
+      "scheduler_timestep": 918.9984741210938,
+      "sigma": 0.9189984798431396
+    },
+    "21": {
+      "step_index": 21,
+      "scheduler_timestep": 912.625732421875,
+      "sigma": 0.9126257300376892
+    },
+    "22": {
+      "step_index": 22,
+      "scheduler_timestep": 905.8950805664062,
+      "sigma": 0.9058950543403625
+    },
+    "23": {
+      "step_index": 23,
+      "scheduler_timestep": 898.775634765625,
+      "sigma": 0.8987756371498108
+    },
+    "24": {
+      "step_index": 24,
+      "scheduler_timestep": 891.2326049804688,
+      "sigma": 0.8912326097488403
+    },
+    "25": {
+      "step_index": 25,
+      "scheduler_timestep": 883.2271118164062,
+      "sigma": 0.8832271099090576
+    },
+    "26": {
+      "step_index": 26,
+      "scheduler_timestep": 874.7151489257812,
+      "sigma": 0.8747151494026184
+    },
+    "27": {
+      "step_index": 27,
+      "scheduler_timestep": 865.647216796875,
+      "sigma": 0.8656471967697144
+    },
+    "28": {
+      "step_index": 28,
+      "scheduler_timestep": 855.9669189453125,
+      "sigma": 0.8559669256210327
+    },
+    "29": {
+      "step_index": 29,
+      "scheduler_timestep": 845.6102294921875,
+      "sigma": 0.8456102013587952
+    },
+    "30": {
+      "step_index": 30,
+      "scheduler_timestep": 834.50341796875,
+      "sigma": 0.8345034122467041
+    },
+    "31": {
+      "step_index": 31,
+      "scheduler_timestep": 822.56201171875,
+      "sigma": 0.822562038898468
+    },
+    "32": {
+      "step_index": 32,
+      "scheduler_timestep": 809.6884155273438,
+      "sigma": 0.8096883893013
+    },
+    "33": {
+      "step_index": 33,
+      "scheduler_timestep": 795.7689208984375,
+      "sigma": 0.7957689166069031
+    },
+    "34": {
+      "step_index": 34,
+      "scheduler_timestep": 780.6707763671875,
+      "sigma": 0.7806707620620728
+    },
+    "35": {
+      "step_index": 35,
+      "scheduler_timestep": 764.2374267578125,
+      "sigma": 0.7642374038696289
+    },
+    "36": {
+      "step_index": 36,
+      "scheduler_timestep": 746.2837524414062,
+      "sigma": 0.746283769607544
+    },
+    "37": {
+      "step_index": 37,
+      "scheduler_timestep": 726.5885620117188,
+      "sigma": 0.7265885472297668
+    },
+    "38": {
+      "step_index": 38,
+      "scheduler_timestep": 704.8853759765625,
+      "sigma": 0.7048853635787964
+    },
+    "39": {
+      "step_index": 39,
+      "scheduler_timestep": 680.8508911132812,
+      "sigma": 0.6808508634567261
+    },
+    "40": {
+      "step_index": 40,
+      "scheduler_timestep": 654.087890625,
+      "sigma": 0.6540879011154175
+    },
+    "41": {
+      "step_index": 41,
+      "scheduler_timestep": 624.1038208007812,
+      "sigma": 0.624103844165802
+    },
+    "42": {
+      "step_index": 42,
+      "scheduler_timestep": 590.280029296875,
+      "sigma": 0.5902800559997559
+    },
+    "43": {
+      "step_index": 43,
+      "scheduler_timestep": 551.8284301757812,
+      "sigma": 0.5518284440040588
+    },
+    "44": {
+      "step_index": 44,
+      "scheduler_timestep": 507.7296447753906,
+      "sigma": 0.5077296495437622
+    },
+    "45": {
+      "step_index": 45,
+      "scheduler_timestep": 456.6408386230469,
+      "sigma": 0.4566408395767212
+    },
+    "46": {
+      "step_index": 46,
+      "scheduler_timestep": 396.757080078125,
+      "sigma": 0.3967570662498474
+    },
+    "47": {
+      "step_index": 47,
+      "scheduler_timestep": 325.59332275390625,
+      "sigma": 0.32559332251548767
+    },
+    "48": {
+      "step_index": 48,
+      "scheduler_timestep": 239.6311798095703,
+      "sigma": 0.23963117599487305
+    },
+    "49": {
+      "step_index": 49,
+      "scheduler_timestep": 133.7189483642578,
+      "sigma": 0.13371895253658295
+    }
+  },
+  "cond_pred_delta_l2": 1115.0074462890625,
+  "cond_pred_ref_l2": 857.8433227539062,
+  "cond_pred_patched_l2": 820.20947265625,
+  "cond_pred_relative_l2": 1.2997797727584839,
+  "kind": "output",
+  "shape_before": [
+    1,
+    4096,
+    4096
+  ],
+  "dtype_before": "bfloat16",
+  "shape_after": [
+    1,
+    4096,
+    4096
+  ],
+  "dtype_after": "bfloat16",
+  "raw_delta_l2": 76207.765625,
+  "bf16_delta_l2": 76207.765625,
+  "hidden_l2": 132736.796875,
+  "relative_l2": 0.5741268993914767,
+  "layer": "S15",
+  "step": 8,
+  "alpha": 1.0,
+  "condition": "shuffle",
+  "replicate": 0,
+  "image_grid": {
+    "n_tokens": 4096,
+    "inferred_grid": [
+      64,
+      64
+    ],
+    "expected_grid": [
+      64,
+      64
+    ],
+    "matches_expected": true,
+    "is_square": true
+  },
+  "num_image_tokens": 4096,
+  "hidden_width": 4096,
+  "cfg_branch": "conditional",
+  "layer_kind": "single",
+  "control_seed": 4831080982983997801,
+  "donor_grid": {
+    "n_tokens": 4096,
+    "inferred_grid": [
+      64,
+      64
+    ],
+    "expected_grid": [
+      64,
+      64
+    ],
+    "matches_expected": true,
+    "is_square": true
+  },
+  "n_tokens": 4096,
+  "inferred_grid": [
+    64,
+    64
+  ],
+  "expected_grid": [
+    64,
+    64
+  ],
+  "matches_expected": true,
+  "is_square": true,
+  "block_size": 8,
+  "n_blocks": 64,
+  "fixed_points": 1,
+  "permutation_sha256": "e86548cfb9c16a5053cc9ec3df33bcf58acd4fa1f2454d134fee3c609f537fa1",
+  "zero_source_channels": 0,
+  "zero_target_channels": 0,
+  "max_channel_l2_relative_error": 2.0828183266985434e-07,
+  "mean_channel_l2_relative_error": 2.763666628879946e-08,
+  "direction_kind": "spatial_block_shuffle_image_tokens",
+  "calibration_iterations": 1,
+  "control_valid": true,
+  "target_l2": 76207.765625,
+  "actual_bf16_l2": 76207.9453125,
+  "relative_error": 2.3578633821151345e-06,
+  "tolerance": 0.01,
+  "max_iters": 5,
+  "direction_seed_excludes_alpha": true,
+  "injected_bf16_delta_l2": 76207.9453125,
+  "patch_applied": true,
+  "text_tokens_unchanged": true,
+  "text_out_sha256": "b6150dd646a2764f83eeceee22814d195992adfe5fe1b508b55a1b15c0b05052",
+  "return_structure": "concatenated_joint",
+  "text_slice": [
+    0,
+    512
+  ],
+  "image_slice": [
+    512,
+    4608
+  ]
+}

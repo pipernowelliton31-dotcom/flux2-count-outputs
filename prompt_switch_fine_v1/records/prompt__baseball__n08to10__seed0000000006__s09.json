@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__baseball__n08to10__seed0000000006__s09",
+    "experiment": "prompt_switch_fine",
+    "category": "baseball",
+    "seed": 6,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 9,
+    "source_state_id": "baseball_n08_s0000000006",
+    "old_baseline_id": "baseball_n08_s0000000006",
+    "new_baseline_id": "baseball_n10_s0000000006",
+    "old_prompt": "A studio photograph of exactly eight baseballs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten baseballs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "baseballs",
+    "index": 2048
+  },
+  "seconds": 59.94301700592041,
+  "worker": "gpu5",
+  "old_pixel_validation": false,
+  "completed_at": "2026-09-26T23:09:06+0800"
+}

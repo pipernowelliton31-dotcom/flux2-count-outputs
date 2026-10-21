@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "lemon_n07_s0000002026",
+  "index": 102,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/lemon_n07_s0000002026.pt",
+  "bytes": 13795379,
+  "seconds": 75.90545892715454,
+  "rank": "gate-gpu4",
+  "gate": true,
+  "completed_at": "2026-09-24T20:28:17+0800"
+}

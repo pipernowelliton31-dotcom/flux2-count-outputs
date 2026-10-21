@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__apple_n10__B_to_A__s20__residual__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "apple_n10",
+    "category": "apple",
+    "target": 10,
+    "direction": "B_to_A",
+    "step": 20,
+    "intervention": "residual",
+    "sigma": 8,
+    "donor_source_id": "apple_n10_s0000000002",
+    "receiver_source_id": "apple_n10_s0000000005",
+    "donor_seed": 2,
+    "receiver_seed": 5,
+    "donor_prompt": "A studio photograph of exactly ten red apples on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten red apples on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "red apples",
+    "index": 104
+  },
+  "image": "images/swap__apple_n10__B_to_A__s20__residual__sig08.png",
+  "seconds": 48.3683648109436,
+  "worker": "gpu2",
+  "completed_at": "2026-09-25T03:35:21+0800",
+  "perturbation_l2": 932.681396484375,
+  "perturbation_rms": 1.2881004810333252,
+  "relative_l2": 1.4103689193725586
+}

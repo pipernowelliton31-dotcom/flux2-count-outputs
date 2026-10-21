@@ -1,0 +1,14 @@
+{
+  "index": 463,
+  "id": "rubber_duck_n07_s0000000011",
+  "category": "rubber_duck",
+  "target": 7,
+  "seed": 11,
+  "layout": "4+3",
+  "object_phrase": "yellow rubber ducks",
+  "spec_id": "rubber_duck_7_4+3",
+  "prompt": "A studio photograph of exactly seven yellow rubber ducks on a plain light gray surface against a plain light gray background. The yellow rubber ducks are arranged in two horizontal rows, with exactly four yellow rubber ducks in the back row and exactly three yellow rubber ducks in the front row. All objects are fully visible. No other objects. No text.",
+  "config_hash": "f172149621d8ade92bfd38e4163fdf51c7808530556daca749dac764413bcc3e",
+  "seconds": 56.70537281036377,
+  "rank": 1
+}

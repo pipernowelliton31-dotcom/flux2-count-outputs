@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__orange_n08_s0000000008__to10__s07",
+  "job": {
+    "id": "prompt__orange__n08to10__seed0000000008__s07",
+    "experiment": "prompt_switch_fine",
+    "category": "orange",
+    "seed": 8,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 7,
+    "source_state_id": "orange_n08_s0000000008",
+    "old_baseline_id": "orange_n08_s0000000008",
+    "new_baseline_id": "orange_n10_s0000000008",
+    "old_prompt": "A studio photograph of exactly eight oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "oranges",
+    "index": 2416,
+    "velocity_index": 2416,
+    "velocity_id": "velocity__orange_n08_s0000000008__to10__s07"
+  },
+  "old_reproduction": {
+    "comparable": true,
+    "equal": true,
+    "max_abs": 0.0
+  },
+  "seconds": 2.2995243072509766,
+  "worker": "gpu4",
+  "completed_at": "2026-09-27T16:52:57+0800"
+}

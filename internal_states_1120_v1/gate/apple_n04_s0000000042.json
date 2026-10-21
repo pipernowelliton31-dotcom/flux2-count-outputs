@@ -1,0 +1,10 @@
+{
+  "id": "apple_n04_s0000000042",
+  "passed": true,
+  "initial_sha256": "56db574cc685e659f6383b81ed173c4c6bc42f23b42362f86aa2e646d996a06d",
+  "expected_initial_sha256": "56db574cc685e659f6383b81ed173c4c6bc42f23b42362f86aa2e646d996a06d",
+  "png_sha256": "82c0c67e6e1ea01aaddbe9844cb84b23395a40369533e52f81d0cf1ee88a09f0",
+  "expected_png_sha256": "82c0c67e6e1ea01aaddbe9844cb84b23395a40369533e52f81d0cf1ee88a09f0",
+  "pixels_equal": true,
+  "seconds": 73.09168791770935
+}

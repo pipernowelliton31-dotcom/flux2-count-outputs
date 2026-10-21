@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "phase1": {
+    "phase": "phase1",
+    "status": "complete",
+    "trajectories": 320,
+    "rows": 3200,
+    "morphology_counts": {
+      "nonmonotonic_uncertain": 159,
+      "sharp": 130,
+      "gradual": 18,
+      "persistent_hybrid": 13
+    }
+  },
+  "phase2": {
+    "passed": true,
+    "complete": 3200,
+    "total": 3200,
+    "old_equal": 2880,
+    "expected_old_equal": 2880,
+    "missing": [],
+    "bad": [],
+    "errors": 0
+  },
+  "probes": {
+    "passed": true,
+    "rows": 109800,
+    "spaces": [
+      "x_t",
+      "h_in_D0",
+      "h_in_D3",
+      "h_in_D7",
+      "h_in_S0",
+      "h_in_S7",
+      "h_in_S15",
+      "h_in_S23",
+      "block_delta_D0",
+      "block_delta_D3",
+      "block_delta_D7",
+      "block_delta_S0",
+      "block_delta_S7",
+      "block_delta_S15",
+      "block_delta_S23"
+    ],
+    "alpha": 100.0,
+    "permutations": 100,
+    "partial_rows": {
+      "x_t": 7320,
+      "h_in_D0": 7320,
+      "h_in_D3": 7320,
+      "h_in_D7": 7320,
+      "h_in_S0": 7320,
+      "h_in_S7": 7320,
+      "h_in_S15": 7320,
+      "h_in_S23": 7320,
+      "block_delta_D0": 7320,
+      "block_delta_D3": 7320,
+      "block_delta_D7": 7320,
+      "block_delta_S0": 7320,
+      "block_delta_S7": 7320,
+      "block_delta_S15": 7320,
+      "block_delta_S23": 7320
+    }
+  },
+  "frequency": {
+    "passed": true,
+    "rows": 3200,
+    "diagnostic_only": true,
+    "bands": [
+      "L16",
+      "B8",
+      "B4",
+      "H4"
+    ]
+  },
+  "phase3": {
+    "passed": true,
+    "alignment_rows": 109800,
+    "control_times": 10980,
+    "spaces": [
+      "block_delta_D0",
+      "block_delta_D3",
+      "block_delta_D7",
+      "block_delta_S0",
+      "block_delta_S15",
+      "block_delta_S23",
+      "block_delta_S7",
+      "h_in_D0",
+      "h_in_D3",
+      "h_in_D7",
+      "h_in_S0",
+      "h_in_S15",
+      "h_in_S23",
+      "h_in_S7",
+      "x_t"
+    ]
+  },
+  "secondary_ablation": {
+    "passed": true,
+    "secondary_only": true,
+    "models": [
+      "M0",
+      "M1",
+      "M2",
+      "M3"
+    ]
+  },
+  "trajectory_panels": 320
+}

@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__tennis_ball_n10_s0000000003__to08__s01",
+  "job": {
+    "id": "prompt__tennis_ball__n10to08__seed0000000003__s01",
+    "experiment": "prompt_switch_fine",
+    "category": "tennis_ball",
+    "seed": 3,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 1,
+    "source_state_id": "tennis_ball_n10_s0000000003",
+    "old_baseline_id": "tennis_ball_n10_s0000000003",
+    "new_baseline_id": "tennis_ball_n08_s0000000003",
+    "old_prompt": "A studio photograph of exactly ten tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "tennis balls",
+    "index": 1530,
+    "velocity_index": 1530,
+    "velocity_id": "velocity__tennis_ball_n10_s0000000003__to08__s01"
+  },
+  "old_reproduction": {
+    "comparable": true,
+    "equal": true,
+    "max_abs": 0.0
+  },
+  "seconds": 2.1807773113250732,
+  "worker": "gpu5",
+  "completed_at": "2026-09-27T16:48:20+0800"
+}

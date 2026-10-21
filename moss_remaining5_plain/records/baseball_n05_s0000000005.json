@@ -1,0 +1,14 @@
+{
+  "index": 272,
+  "id": "baseball_n05_s0000000005",
+  "category": "baseball",
+  "target": 5,
+  "seed": 5,
+  "layout": "1x5",
+  "object_phrase": "baseballs",
+  "spec_id": null,
+  "prompt": "A studio photograph of exactly five baseballs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+  "config_hash": "dc831d9061fe3145a2ee55645aba3eb90b9a1594314c761f8f178d77b4ff321e",
+  "seconds": 64.80714392662048,
+  "rank": 2
+}

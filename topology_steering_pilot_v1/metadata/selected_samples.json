@@ -1,0 +1,322 @@
+[
+  {
+    "category": "apple",
+    "source_id": "apple_n10_s0000000008",
+    "trajectory_id": "apple_n10_s0000000008__to08",
+    "step": 4,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_apple__step04.pt",
+    "train_rows": 119,
+    "paired_categories": [
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "baseball",
+    "source_id": "baseball_n10_s0000000003",
+    "trajectory_id": "baseball_n10_s0000000003__to08",
+    "step": 4,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_baseball__step04.pt",
+    "train_rows": 121,
+    "paired_categories": [
+      "apple",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "lemon",
+    "source_id": "lemon_n10_s0000000001",
+    "trajectory_id": "lemon_n10_s0000000001__to08",
+    "step": 4,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_lemon__step04.pt",
+    "train_rows": 119,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "mug",
+    "source_id": "mug_n10_s0000000001",
+    "trajectory_id": "mug_n10_s0000000001__to08",
+    "step": 4,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_mug__step04.pt",
+    "train_rows": 120,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "rubber_duck",
+    "source_id": "rubber_duck_n10_s0000000001",
+    "trajectory_id": "rubber_duck_n10_s0000000001__to08",
+    "step": 4,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_rubber_duck__step04.pt",
+    "train_rows": 118,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "tennis_ball",
+    "source_id": "tennis_ball_n10_s0000000001",
+    "trajectory_id": "tennis_ball_n10_s0000000001__to08",
+    "step": 4,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_tennis_ball__step04.pt",
+    "train_rows": 119,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "toy_car",
+    "source_id": "toy_car_n10_s0000000001",
+    "trajectory_id": "toy_car_n10_s0000000001__to08",
+    "step": 4,
+    "K": 3,
+    "N": 14,
+    "occupancy": "[4,5,5]",
+    "artifact": "artifacts/loco_toy_car__step04.pt",
+    "train_rows": 121,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "wooden_cube",
+    "source_id": "wooden_cube_n10_s0000000006",
+    "trajectory_id": "wooden_cube_n10_s0000000006__to08",
+    "step": 4,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[4,6,5]",
+    "artifact": "artifacts/loco_wooden_cube__step04.pt",
+    "train_rows": 120,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car"
+    ]
+  },
+  {
+    "category": "apple",
+    "source_id": "apple_n10_s0000000008",
+    "trajectory_id": "apple_n10_s0000000008__to08",
+    "step": 5,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_apple__step05.pt",
+    "train_rows": 119,
+    "paired_categories": [
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "baseball",
+    "source_id": "baseball_n10_s0000000003",
+    "trajectory_id": "baseball_n10_s0000000003__to08",
+    "step": 5,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_baseball__step05.pt",
+    "train_rows": 121,
+    "paired_categories": [
+      "apple",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "lemon",
+    "source_id": "lemon_n10_s0000000001",
+    "trajectory_id": "lemon_n10_s0000000001__to08",
+    "step": 5,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_lemon__step05.pt",
+    "train_rows": 119,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "mug",
+    "source_id": "mug_n10_s0000000001",
+    "trajectory_id": "mug_n10_s0000000001__to08",
+    "step": 5,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_mug__step05.pt",
+    "train_rows": 120,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "rubber_duck",
+    "source_id": "rubber_duck_n10_s0000000001",
+    "trajectory_id": "rubber_duck_n10_s0000000001__to08",
+    "step": 5,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_rubber_duck__step05.pt",
+    "train_rows": 118,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "tennis_ball",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "tennis_ball",
+    "source_id": "tennis_ball_n10_s0000000001",
+    "trajectory_id": "tennis_ball_n10_s0000000001__to08",
+    "step": 5,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[5,5,5]",
+    "artifact": "artifacts/loco_tennis_ball__step05.pt",
+    "train_rows": 119,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "toy_car",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "toy_car",
+    "source_id": "toy_car_n10_s0000000001",
+    "trajectory_id": "toy_car_n10_s0000000001__to08",
+    "step": 5,
+    "K": 3,
+    "N": 14,
+    "occupancy": "[4,5,5]",
+    "artifact": "artifacts/loco_toy_car__step05.pt",
+    "train_rows": 121,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "wooden_cube"
+    ]
+  },
+  {
+    "category": "wooden_cube",
+    "source_id": "wooden_cube_n10_s0000000006",
+    "trajectory_id": "wooden_cube_n10_s0000000006__to08",
+    "step": 5,
+    "K": 3,
+    "N": 15,
+    "occupancy": "[4,6,5]",
+    "artifact": "artifacts/loco_wooden_cube__step05.pt",
+    "train_rows": 120,
+    "paired_categories": [
+      "apple",
+      "baseball",
+      "lemon",
+      "mug",
+      "rubber_duck",
+      "tennis_ball",
+      "toy_car"
+    ]
+  }
+]

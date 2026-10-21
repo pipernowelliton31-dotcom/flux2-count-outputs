@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__rubber_duck_n10_s0000000001__to08__s10",
+  "job": {
+    "id": "prompt__rubber_duck__n10to08__seed0000000001__s10",
+    "experiment": "prompt_switch_fine",
+    "category": "rubber_duck",
+    "seed": 1,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 10,
+    "source_state_id": "rubber_duck_n10_s0000000001",
+    "old_baseline_id": "rubber_duck_n10_s0000000001",
+    "new_baseline_id": "rubber_duck_n08_s0000000001",
+    "old_prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "yellow rubber ducks",
+    "index": 1189,
+    "velocity_index": 1189,
+    "velocity_id": "velocity__rubber_duck_n10_s0000000001__to08__s10"
+  },
+  "old_reproduction": {
+    "comparable": false,
+    "equal": null,
+    "max_abs": null
+  },
+  "seconds": 2.1550133228302,
+  "worker": "gpu5",
+  "completed_at": "2026-09-27T16:46:36+0800"
+}

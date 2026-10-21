@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "config_id": "prompt_switch_fine_v1",
+  "model": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+  "source": "/home/lsj/flux2-count/outputs/numerosity_1120",
+  "old_state_root": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1",
+  "old_causal_root": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1",
+  "steps": 50,
+  "guidance": 4.0,
+  "height": 1024,
+  "width": 1024,
+  "dtype": "bfloat16",
+  "generator_device": "cpu",
+  "switch_steps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "expected": {
+    "states": 320,
+    "images": 3200
+  },
+  "capture_stop": "transformer conditional pre-hook at step 10",
+  "validation": "every x_t[5]/x_t[10] equals frozen old cache; every step5/10 image is pixel-identical",
+  "config_hash": "b56fa9b091c116c9c7727a28b1573cfc8c73dd61d96999cd2725d93a0a9e3bc7"
+}

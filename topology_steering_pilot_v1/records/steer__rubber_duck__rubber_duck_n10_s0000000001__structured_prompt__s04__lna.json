@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "topology_steering_pilot_v1",
+  "job": {
+    "category": "rubber_duck",
+    "source_id": "rubber_duck_n10_s0000000001",
+    "trajectory_id": "rubber_duck_n10_s0000000001__to08",
+    "prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "baseline_image": "/home/lsj/flux2-count/outputs/numerosity_1120/images/rubber_duck_n10_s0000000001.png",
+    "baseline_K": 3,
+    "baseline_N": 15,
+    "baseline_occupancy": "[5,5,5]",
+    "target": 10,
+    "seed": 1,
+    "object_text": "yellow rubber ducks",
+    "method": "structured_prompt",
+    "step": 4,
+    "artifact_step": null,
+    "lambda": null,
+    "structured_prompt": "A studio photograph of exactly ten yellow rubber ducks arranged in exactly two horizontal rows of five objects each on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "id": "steer__rubber_duck__rubber_duck_n10_s0000000001__structured_prompt__s04__lna",
+    "index": 148
+  },
+  "image": "images/steer__rubber_duck__rubber_duck_n10_s0000000001__structured_prompt__s04__lna.png",
+  "seconds": 71.01013040542603,
+  "worker": "gpu1",
+  "completed_at": "2026-09-28T15:49:42+0800",
+  "injection_calls": 0,
+  "unconditional_s7_calls": 46
+}

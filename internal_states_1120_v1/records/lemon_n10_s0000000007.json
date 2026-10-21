@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "lemon_n10_s0000000007",
+  "index": 832,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/lemon_n10_s0000000007.pt",
+  "bytes": 13795379,
+  "seconds": 76.14528369903564,
+  "rank": 4,
+  "gate": false,
+  "completed_at": "2026-09-24T23:26:57+0800"
+}

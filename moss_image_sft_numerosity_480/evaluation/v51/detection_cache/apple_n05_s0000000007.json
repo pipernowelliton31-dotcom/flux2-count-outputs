@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "apple_n05_s0000000007",
+  "object_text": "red apples",
+  "image_sha256": "945e1a6c02c4844df5d98c8def87cb01243a8d612f7184fbdd00ea13bca7bb58",
+  "confidence_threshold": 0.26,
+  "image_path": "apple_n05_s0000000007.png"
+}

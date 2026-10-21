@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "structure": {
+      "macro_f1": 0.5795657726692208,
+      "balanced_accuracy": 0.6575645766093232,
+      "recall_row": 0.8484536082474227,
+      "recall_radial": 0.6063829787234043,
+      "recall_irregular": 0.5178571428571429
+    },
+    "count_error": {
+      "r2": 0.29678635496564976,
+      "mae": 1.2947807741750563,
+      "spearman": 0.45168075955261905
+    },
+    "count_error_residual": {
+      "r2": -0.011312648487163068,
+      "mae": 1.4142860199327905,
+      "spearman": 0.24746563284504006
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_seeds": [
+        42,
+        0,
+        4,
+        8
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 1,
+      "test_seeds": [
+        2026,
+        1,
+        5,
+        9
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 2,
+      "test_seeds": [
+        17,
+        2,
+        6,
+        10
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 3,
+      "test_seeds": [
+        777,
+        3,
+        7,
+        11
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    }
+  ],
+  "key": "hin_S23_step05",
+  "family": "h_in",
+  "layer": "S23",
+  "step": 5
+}

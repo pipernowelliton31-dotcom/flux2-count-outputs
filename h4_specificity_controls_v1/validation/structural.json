@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "roundtrip_exact": true,
+  "max_reconstruction_error": 2.384185791015625e-07,
+  "aligned_self_swap_max_error": 0.0,
+  "controls": {
+    "H4_random_norm": {
+      "deterministic": true,
+      "max_channel_l2_relative_error": 4.6755704374845664e-07,
+      "post_bf16_max_channel_l2_relative_error": 4.88930381834507e-05,
+      "permutation_size": 0,
+      "permutation_fixed_points": 0
+    },
+    "H4_spatial_block_shuffle": {
+      "deterministic": true,
+      "max_channel_l2_relative_error": 4.669599320550333e-07,
+      "post_bf16_max_channel_l2_relative_error": 3.783890133490786e-05,
+      "permutation_size": 256,
+      "permutation_fixed_points": 2
+    },
+    "H4_channel_shuffle": {
+      "deterministic": true,
+      "max_channel_l2_relative_error": 3.743089962426893e-07,
+      "post_bf16_max_channel_l2_relative_error": 3.2167910831049085e-05,
+      "permutation_size": 32,
+      "permutation_fixed_points": 3
+    }
+  },
+  "resume_skips_complete": true
+}

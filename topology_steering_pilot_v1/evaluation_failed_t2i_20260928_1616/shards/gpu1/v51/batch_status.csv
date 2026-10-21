@@ -1,0 +1,2 @@
+﻿id,image_path,object_text,category,target,seed,cache_hit,countgd_main,image_sha256,width,height,message,status
+steer__apple__apple_n10_s0000000008__probe__s04__l0p5,steer__apple__apple_n10_s0000000008__probe__s04__l0p5.png,red apples,red_apples,10,8,False,0,e0ff1e1395226c061e18173d7dbb27729078755c6cdf66e54031b3e1ca378dd6,1024,1024,RuntimeError: Could not import CountGD modules. Run this script inside the CountGD environment and make sure --countgd-root points to the CountGD repository.,detection_error

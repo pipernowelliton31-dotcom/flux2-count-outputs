@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__apple__n08to10__seed0000000009__s06",
+    "experiment": "prompt_switch_fine",
+    "category": "apple",
+    "seed": 9,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 6,
+    "source_state_id": "apple_n08_s0000000009",
+    "old_baseline_id": "apple_n08_s0000000009",
+    "new_baseline_id": "apple_n10_s0000000009",
+    "old_prompt": "A studio photograph of exactly eight red apples on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten red apples on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "red apples",
+    "index": 2605
+  },
+  "seconds": 63.980945110321045,
+  "worker": "gpu5",
+  "old_pixel_validation": false,
+  "completed_at": "2026-09-27T00:35:05+0800"
+}

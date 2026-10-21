@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "attempts": 3,
+  "job": {
+    "category": "rubber_duck",
+    "source_id": "rubber_duck_n10_s0000000001",
+    "trajectory_id": "rubber_duck_n10_s0000000001__to08",
+    "prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "baseline_image": "/home/lsj/flux2-count/outputs/numerosity_1120/images/rubber_duck_n10_s0000000001.png",
+    "baseline_K": 3,
+    "baseline_N": 15,
+    "baseline_occupancy": "[5,5,5]",
+    "target": 10,
+    "seed": 1,
+    "object_text": "yellow rubber ducks",
+    "method": "subspace",
+    "step": 4,
+    "artifact_step": 4,
+    "lambda": 0.5,
+    "id": "steer__rubber_duck__rubber_duck_n10_s0000000001__subspace__s04__l0p5",
+    "index": 61,
+    "artifact": "artifacts/loco_rubber_duck__step04.pt"
+  },
+  "worker": "gpu1",
+  "error": "RuntimeError('Subspace BF16 feature gate failed: 0.02413848787546158')",
+  "failed_at": "2026-09-28T16:05:35+0800"
+}

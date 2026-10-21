@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "expected": 14,
+  "compared": 14,
+  "results": [
+    {
+      "id": "h4ctl__bottle_n08__s00__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__bottle_n08__s00__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__bottle_n08__s05__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__bottle_n08__s05__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__bottle_n08__s10__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__bottle_n08__s10__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__bottle_n08__s20__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__bottle_n08__s20__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__bottle_n08__s30__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__bottle_n08__s30__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__bottle_n08__s40__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__bottle_n08__s40__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__bottle_n08__s49__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__bottle_n08__s49__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__tennis_ball_n10__s00__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__tennis_ball_n10__s00__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__tennis_ball_n10__s05__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__tennis_ball_n10__s05__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__tennis_ball_n10__s10__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__tennis_ball_n10__s10__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__tennis_ball_n10__s20__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__tennis_ball_n10__s20__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__tennis_ball_n10__s30__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__tennis_ball_n10__s30__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__tennis_ball_n10__s40__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__tennis_ball_n10__s40__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "id": "h4ctl__tennis_ball_n10__s49__H4_aligned__r0",
+      "prior": "/data/storage22t/lsj/flux2-count/outputs/laplacian_band_pilot_v1/images/band__tennis_ball_n10__s49__H4.png",
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "passed": true,
+  "one_step_equal": 22,
+  "continuation_pixel_equal": 2,
+  "one_step": [
+    {
+      "id": "velocity__apple_n08_s0000000000__to10__s05",
+      "source_state_id": "apple_n08_s0000000000",
+      "step": 5,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__apple_n10_s0000000001__to08__s04",
+      "source_state_id": "apple_n10_s0000000001",
+      "step": 4,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__baseball_n08_s0000000002__to10__s03",
+      "source_state_id": "baseball_n08_s0000000002",
+      "step": 3,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__baseball_n10_s0000000003__to08__s02",
+      "source_state_id": "baseball_n10_s0000000003",
+      "step": 2,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__bottle_n08_s0000000004__to10__s01",
+      "source_state_id": "bottle_n08_s0000000004",
+      "step": 1,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__bottle_n08_s0000000004__to10__s09",
+      "source_state_id": "bottle_n08_s0000000004",
+      "step": 9,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__bottle_n10_s0000000005__to08__s08",
+      "source_state_id": "bottle_n10_s0000000005",
+      "step": 8,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__lemon_n08_s0000000006__to10__s07",
+      "source_state_id": "lemon_n08_s0000000006",
+      "step": 7,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__lemon_n10_s0000000007__to08__s06",
+      "source_state_id": "lemon_n10_s0000000007",
+      "step": 6,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__mug_n08_s0000000008__to10__s05",
+      "source_state_id": "mug_n08_s0000000008",
+      "step": 5,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__mug_n10_s0000000009__to08__s04",
+      "source_state_id": "mug_n10_s0000000009",
+      "step": 4,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__orange_n08_s0000000010__to10__s03",
+      "source_state_id": "orange_n08_s0000000010",
+      "step": 3,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__orange_n10_s0000000011__to08__s02",
+      "source_state_id": "orange_n10_s0000000011",
+      "step": 2,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__rubber_duck_n08_s0000000017__to10__s01",
+      "source_state_id": "rubber_duck_n08_s0000000017",
+      "step": 1,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__rubber_duck_n08_s0000000017__to10__s09",
+      "source_state_id": "rubber_duck_n08_s0000000017",
+      "step": 9,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__rubber_duck_n10_s0000000042__to08__s08",
+      "source_state_id": "rubber_duck_n10_s0000000042",
+      "step": 8,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__tennis_ball_n08_s0000000777__to10__s07",
+      "source_state_id": "tennis_ball_n08_s0000000777",
+      "step": 7,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__tennis_ball_n10_s0000002026__to08__s06",
+      "source_state_id": "tennis_ball_n10_s0000002026",
+      "step": 6,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__toy_car_n08_s0000000000__to10__s05",
+      "source_state_id": "toy_car_n08_s0000000000",
+      "step": 5,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__toy_car_n10_s0000000001__to08__s04",
+      "source_state_id": "toy_car_n10_s0000000001",
+      "step": 4,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__wooden_cube_n08_s0000000002__to10__s03",
+      "source_state_id": "wooden_cube_n08_s0000000002",
+      "step": 3,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "id": "velocity__wooden_cube_n10_s0000000003__to08__s02",
+      "source_state_id": "wooden_cube_n10_s0000000003",
+      "step": 2,
+      "comparable": true,
+      "equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "continuations": [
+    {
+      "source_state_id": "bottle_n08_s0000000004",
+      "differing_pixels": 0,
+      "max_pixel_diff": 0
+    },
+    {
+      "source_state_id": "rubber_duck_n08_s0000000017",
+      "differing_pixels": 0,
+      "max_pixel_diff": 0
+    }
+  ],
+  "completed_at": "2026-09-27T04:56:54+0800",
+  "shard": 4,
+  "shards": 8
+}

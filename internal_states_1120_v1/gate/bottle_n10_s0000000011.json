@@ -1,0 +1,10 @@
+{
+  "id": "bottle_n10_s0000000011",
+  "passed": true,
+  "initial_sha256": "4892fde594627848b0b2bc228b4d5eae6737fbd50d55054c1f05093a20b269b2",
+  "expected_initial_sha256": "4892fde594627848b0b2bc228b4d5eae6737fbd50d55054c1f05093a20b269b2",
+  "png_sha256": "570906d7a92476b0c7fa5f51ae997b206ac5f4a472f95e17583d395528f0d697",
+  "expected_png_sha256": "570906d7a92476b0c7fa5f51ae997b206ac5f4a472f95e17583d395528f0d697",
+  "pixels_equal": true,
+  "seconds": 76.76442265510559
+}

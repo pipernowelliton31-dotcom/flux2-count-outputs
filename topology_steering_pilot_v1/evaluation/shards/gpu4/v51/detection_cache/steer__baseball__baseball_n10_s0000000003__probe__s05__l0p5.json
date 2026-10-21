@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "steer__baseball__baseball_n10_s0000000003__probe__s05__l0p5",
+  "object_text": "baseballs",
+  "image_sha256": "741dd09dc156fc75553dcbb17256f3505748289b955057ea7cae36e7a68a366d",
+  "confidence_threshold": 0.26,
+  "image_path": "steer__baseball__baseball_n10_s0000000003__probe__s05__l0p5.png"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "tennis_ball_n07_s0000000001",
+  "index": 383,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/tennis_ball_n07_s0000000001.pt",
+  "bytes": 13796109,
+  "seconds": 71.24806499481201,
+  "rank": 5,
+  "gate": false,
+  "completed_at": "2026-09-24T21:46:48+0800"
+}

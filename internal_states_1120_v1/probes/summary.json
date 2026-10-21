@@ -1,0 +1,121 @@
+{
+  "samples": 1120,
+  "seed_folds": [
+    [
+      42,
+      0,
+      4,
+      8
+    ],
+    [
+      2026,
+      1,
+      5,
+      9
+    ],
+    [
+      17,
+      2,
+      6,
+      10
+    ],
+    [
+      777,
+      3,
+      7,
+      11
+    ]
+  ],
+  "prompt_baseline": {
+    "structure": {
+      "macro_f1": 0.2995299798836872,
+      "balanced_accuracy": 0.4592130688643082,
+      "recall_row": 0.3958762886597938,
+      "recall_radial": 0.5531914893617021,
+      "recall_irregular": 0.42857142857142855
+    },
+    "count_error": {
+      "r2": 0.19822340584772058,
+      "mae": 1.3587102950683663,
+      "spearman": 0.37970332799095025
+    },
+    "count_error_residual": {
+      "r2": -1.4832319848112618e-05,
+      "mae": 1.3591082000200727,
+      "spearman": -0.1448100663349472
+    }
+  },
+  "onset": {
+    "x_t": {
+      "x_t": {
+        "t_S": 5,
+        "t_E": 20
+      }
+    },
+    "h_in": {
+      "D0": {
+        "t_S": 5,
+        "t_E": 30
+      },
+      "D3": {
+        "t_S": 5,
+        "t_E": 0
+      },
+      "D7": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S0": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S7": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S15": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S23": {
+        "t_S": 0,
+        "t_E": 0
+      }
+    },
+    "delta_h": {
+      "D0": {
+        "t_S": 10,
+        "t_E": 20
+      },
+      "D3": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "D7": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S0": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S7": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S15": {
+        "t_S": 0,
+        "t_E": 0
+      },
+      "S23": {
+        "t_S": 0,
+        "t_E": 10
+      }
+    }
+  },
+  "bootstrap_samples": 2000,
+  "metrics_csv": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1/probes/metrics.csv",
+  "oof_predictions": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1/probes/oof_predictions.csv.gz",
+  "label_audit": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1/probes/label_audit_v51_vs_final.csv",
+  "six_panel_figure": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1/probes/figures/six_panel_summary.png"
+}

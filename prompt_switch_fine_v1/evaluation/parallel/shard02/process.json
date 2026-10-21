@@ -1,0 +1,20 @@
+{
+  "pid": 1683928,
+  "cuda_visible_devices": "2",
+  "command": [
+    "/data/storage22t/lsj/conda/envs/countgd/bin/python",
+    "/home/lsj/layout_v51_conservative/infer_manifest_batch.py",
+    "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/images",
+    "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard02/eval_manifest.jsonl",
+    "--out-dir",
+    "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard02/v51",
+    "--jobs",
+    "16",
+    "--device",
+    "cuda",
+    "--countgd-root",
+    "/data/storage22t/lsj/repos/CountGD",
+    "--trust-checkpoint"
+  ],
+  "started_at": "2026-09-27T02:25:53+0800"
+}

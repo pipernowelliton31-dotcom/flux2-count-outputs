@@ -1,0 +1,17 @@
+{
+  "backend": "flux2_klein",
+  "spec_name": "structured_exact_counting_5x6",
+  "spec_version": "1.2",
+  "spec_path": "/data/storage22t/lsj/flux2-count/outputs/moss_image_sft_numerosity_480/manifest.json",
+  "seeds_policy": "original failed-sample seeds",
+  "size": 1024,
+  "dtype": "bfloat16",
+  "local_files_only": true,
+  "n_jobs": 296,
+  "schema": 1,
+  "model": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+  "steps": 50,
+  "guidance": 4.0,
+  "shift": null,
+  "uncond_skip_layers": null
+}

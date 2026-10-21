@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__tennis_ball_n08__B_to_A__s49__residual__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "tennis_ball_n08",
+    "category": "tennis_ball",
+    "target": 8,
+    "direction": "B_to_A",
+    "step": 49,
+    "intervention": "residual",
+    "sigma": 8,
+    "donor_source_id": "tennis_ball_n08_s0000000002",
+    "receiver_source_id": "tennis_ball_n08_s0000000000",
+    "donor_seed": 2,
+    "receiver_seed": 0,
+    "donor_prompt": "A studio photograph of exactly eight tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly eight tennis balls on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "tennis balls",
+    "index": 697
+  },
+  "image": "images/swap__tennis_ball_n08__B_to_A__s49__residual__sig08.png",
+  "seconds": 2.320249557495117,
+  "worker": "gpu6",
+  "completed_at": "2026-09-25T04:46:23+0800",
+  "perturbation_l2": 537.9192504882812,
+  "perturbation_rms": 0.7429057359695435,
+  "relative_l2": 0.9787626266479492
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "secondary_only": true,
+  "models": [
+    "M0",
+    "M1",
+    "M2",
+    "M3"
+  ]
+}

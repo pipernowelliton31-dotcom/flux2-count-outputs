@@ -1,0 +1,441 @@
+{
+  "name": "structured_exact_counting_5x6",
+  "version": "1.2",
+  "language": "en",
+  "description": "Controlled exact-counting prompts. Original base scene and visibility sentences are preserved verbatim; only one spatial-arrangement sentence is inserted. n=5 is a single horizontal row. No color or material attributes are added except red for apples.",
+  "objects": [
+    {
+      "category": "bottles",
+      "prompt_phrase": "bottles"
+    },
+    {
+      "category": "toy_cars",
+      "prompt_phrase": "toy cars"
+    },
+    {
+      "category": "tennis_balls",
+      "prompt_phrase": "tennis balls"
+    },
+    {
+      "category": "cups",
+      "prompt_phrase": "cups"
+    },
+    {
+      "category": "apples",
+      "prompt_phrase": "red apples"
+    }
+  ],
+  "layouts": [
+    {
+      "count": 5,
+      "layout": "1x5",
+      "row_counts_back_to_front": [
+        5
+      ]
+    },
+    {
+      "count": 6,
+      "layout": "3+3",
+      "row_counts_back_to_front": [
+        3,
+        3
+      ]
+    },
+    {
+      "count": 7,
+      "layout": "4+3",
+      "row_counts_back_to_front": [
+        4,
+        3
+      ]
+    },
+    {
+      "count": 8,
+      "layout": "4+4",
+      "row_counts_back_to_front": [
+        4,
+        4
+      ]
+    },
+    {
+      "count": 9,
+      "layout": "3x3",
+      "row_counts_back_to_front": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "count": 10,
+      "layout": "5+5",
+      "row_counts_back_to_front": [
+        5,
+        5
+      ]
+    }
+  ],
+  "total_prompts": 30,
+  "prompts": [
+    {
+      "id": "bottles_5_1x5",
+      "object_category": "bottles",
+      "object_phrase": "bottles",
+      "count": 5,
+      "layout": "1x5",
+      "row_counts_back_to_front": [
+        5
+      ],
+      "prompt": "A studio photograph of exactly five bottles on a plain light gray surface against a plain light gray background. The bottles are arranged in a single horizontal row of exactly five bottles. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "toy_cars_5_1x5",
+      "object_category": "toy_cars",
+      "object_phrase": "toy cars",
+      "count": 5,
+      "layout": "1x5",
+      "row_counts_back_to_front": [
+        5
+      ],
+      "prompt": "A studio photograph of exactly five toy cars on a plain light gray surface against a plain light gray background. The toy cars are arranged in a single horizontal row of exactly five toy cars. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "tennis_balls_5_1x5",
+      "object_category": "tennis_balls",
+      "object_phrase": "tennis balls",
+      "count": 5,
+      "layout": "1x5",
+      "row_counts_back_to_front": [
+        5
+      ],
+      "prompt": "A studio photograph of exactly five tennis balls on a plain light gray surface against a plain light gray background. The tennis balls are arranged in a single horizontal row of exactly five tennis balls. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "cups_5_1x5",
+      "object_category": "cups",
+      "object_phrase": "cups",
+      "count": 5,
+      "layout": "1x5",
+      "row_counts_back_to_front": [
+        5
+      ],
+      "prompt": "A studio photograph of exactly five cups on a plain light gray surface against a plain light gray background. The cups are arranged in a single horizontal row of exactly five cups. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "apples_5_1x5",
+      "object_category": "apples",
+      "object_phrase": "red apples",
+      "count": 5,
+      "layout": "1x5",
+      "row_counts_back_to_front": [
+        5
+      ],
+      "prompt": "A studio photograph of exactly five red apples on a plain light gray surface against a plain light gray background. The red apples are arranged in a single horizontal row of exactly five red apples. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "bottles_6_3_3",
+      "object_category": "bottles",
+      "object_phrase": "bottles",
+      "count": 6,
+      "layout": "3+3",
+      "row_counts_back_to_front": [
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly six bottles on a plain light gray surface against a plain light gray background. The bottles are arranged in two horizontal rows, with exactly three bottles in the back row and exactly three bottles in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "toy_cars_6_3_3",
+      "object_category": "toy_cars",
+      "object_phrase": "toy cars",
+      "count": 6,
+      "layout": "3+3",
+      "row_counts_back_to_front": [
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly six toy cars on a plain light gray surface against a plain light gray background. The toy cars are arranged in two horizontal rows, with exactly three toy cars in the back row and exactly three toy cars in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "tennis_balls_6_3_3",
+      "object_category": "tennis_balls",
+      "object_phrase": "tennis balls",
+      "count": 6,
+      "layout": "3+3",
+      "row_counts_back_to_front": [
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly six tennis balls on a plain light gray surface against a plain light gray background. The tennis balls are arranged in two horizontal rows, with exactly three tennis balls in the back row and exactly three tennis balls in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "cups_6_3_3",
+      "object_category": "cups",
+      "object_phrase": "cups",
+      "count": 6,
+      "layout": "3+3",
+      "row_counts_back_to_front": [
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly six cups on a plain light gray surface against a plain light gray background. The cups are arranged in two horizontal rows, with exactly three cups in the back row and exactly three cups in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "apples_6_3_3",
+      "object_category": "apples",
+      "object_phrase": "red apples",
+      "count": 6,
+      "layout": "3+3",
+      "row_counts_back_to_front": [
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly six red apples on a plain light gray surface against a plain light gray background. The red apples are arranged in two horizontal rows, with exactly three red apples in the back row and exactly three red apples in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "bottles_7_4_3",
+      "object_category": "bottles",
+      "object_phrase": "bottles",
+      "count": 7,
+      "layout": "4+3",
+      "row_counts_back_to_front": [
+        4,
+        3
+      ],
+      "prompt": "A studio photograph of exactly seven bottles on a plain light gray surface against a plain light gray background. The bottles are arranged in two horizontal rows, with exactly four bottles in the back row and exactly three bottles in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "toy_cars_7_4_3",
+      "object_category": "toy_cars",
+      "object_phrase": "toy cars",
+      "count": 7,
+      "layout": "4+3",
+      "row_counts_back_to_front": [
+        4,
+        3
+      ],
+      "prompt": "A studio photograph of exactly seven toy cars on a plain light gray surface against a plain light gray background. The toy cars are arranged in two horizontal rows, with exactly four toy cars in the back row and exactly three toy cars in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "tennis_balls_7_4_3",
+      "object_category": "tennis_balls",
+      "object_phrase": "tennis balls",
+      "count": 7,
+      "layout": "4+3",
+      "row_counts_back_to_front": [
+        4,
+        3
+      ],
+      "prompt": "A studio photograph of exactly seven tennis balls on a plain light gray surface against a plain light gray background. The tennis balls are arranged in two horizontal rows, with exactly four tennis balls in the back row and exactly three tennis balls in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "cups_7_4_3",
+      "object_category": "cups",
+      "object_phrase": "cups",
+      "count": 7,
+      "layout": "4+3",
+      "row_counts_back_to_front": [
+        4,
+        3
+      ],
+      "prompt": "A studio photograph of exactly seven cups on a plain light gray surface against a plain light gray background. The cups are arranged in two horizontal rows, with exactly four cups in the back row and exactly three cups in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "apples_7_4_3",
+      "object_category": "apples",
+      "object_phrase": "red apples",
+      "count": 7,
+      "layout": "4+3",
+      "row_counts_back_to_front": [
+        4,
+        3
+      ],
+      "prompt": "A studio photograph of exactly seven red apples on a plain light gray surface against a plain light gray background. The red apples are arranged in two horizontal rows, with exactly four red apples in the back row and exactly three red apples in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "bottles_8_4_4",
+      "object_category": "bottles",
+      "object_phrase": "bottles",
+      "count": 8,
+      "layout": "4+4",
+      "row_counts_back_to_front": [
+        4,
+        4
+      ],
+      "prompt": "A studio photograph of exactly eight bottles on a plain light gray surface against a plain light gray background. The bottles are arranged in two horizontal rows, with exactly four bottles in the back row and exactly four bottles in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "toy_cars_8_4_4",
+      "object_category": "toy_cars",
+      "object_phrase": "toy cars",
+      "count": 8,
+      "layout": "4+4",
+      "row_counts_back_to_front": [
+        4,
+        4
+      ],
+      "prompt": "A studio photograph of exactly eight toy cars on a plain light gray surface against a plain light gray background. The toy cars are arranged in two horizontal rows, with exactly four toy cars in the back row and exactly four toy cars in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "tennis_balls_8_4_4",
+      "object_category": "tennis_balls",
+      "object_phrase": "tennis balls",
+      "count": 8,
+      "layout": "4+4",
+      "row_counts_back_to_front": [
+        4,
+        4
+      ],
+      "prompt": "A studio photograph of exactly eight tennis balls on a plain light gray surface against a plain light gray background. The tennis balls are arranged in two horizontal rows, with exactly four tennis balls in the back row and exactly four tennis balls in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "cups_8_4_4",
+      "object_category": "cups",
+      "object_phrase": "cups",
+      "count": 8,
+      "layout": "4+4",
+      "row_counts_back_to_front": [
+        4,
+        4
+      ],
+      "prompt": "A studio photograph of exactly eight cups on a plain light gray surface against a plain light gray background. The cups are arranged in two horizontal rows, with exactly four cups in the back row and exactly four cups in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "apples_8_4_4",
+      "object_category": "apples",
+      "object_phrase": "red apples",
+      "count": 8,
+      "layout": "4+4",
+      "row_counts_back_to_front": [
+        4,
+        4
+      ],
+      "prompt": "A studio photograph of exactly eight red apples on a plain light gray surface against a plain light gray background. The red apples are arranged in two horizontal rows, with exactly four red apples in the back row and exactly four red apples in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "bottles_9_3x3",
+      "object_category": "bottles",
+      "object_phrase": "bottles",
+      "count": 9,
+      "layout": "3x3",
+      "row_counts_back_to_front": [
+        3,
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly nine bottles on a plain light gray surface against a plain light gray background. The bottles are arranged in a 3-by-3 grid, with exactly three rows and exactly three bottles in each row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "toy_cars_9_3x3",
+      "object_category": "toy_cars",
+      "object_phrase": "toy cars",
+      "count": 9,
+      "layout": "3x3",
+      "row_counts_back_to_front": [
+        3,
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly nine toy cars on a plain light gray surface against a plain light gray background. The toy cars are arranged in a 3-by-3 grid, with exactly three rows and exactly three toy cars in each row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "tennis_balls_9_3x3",
+      "object_category": "tennis_balls",
+      "object_phrase": "tennis balls",
+      "count": 9,
+      "layout": "3x3",
+      "row_counts_back_to_front": [
+        3,
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly nine tennis balls on a plain light gray surface against a plain light gray background. The tennis balls are arranged in a 3-by-3 grid, with exactly three rows and exactly three tennis balls in each row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "cups_9_3x3",
+      "object_category": "cups",
+      "object_phrase": "cups",
+      "count": 9,
+      "layout": "3x3",
+      "row_counts_back_to_front": [
+        3,
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly nine cups on a plain light gray surface against a plain light gray background. The cups are arranged in a 3-by-3 grid, with exactly three rows and exactly three cups in each row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "apples_9_3x3",
+      "object_category": "apples",
+      "object_phrase": "red apples",
+      "count": 9,
+      "layout": "3x3",
+      "row_counts_back_to_front": [
+        3,
+        3,
+        3
+      ],
+      "prompt": "A studio photograph of exactly nine red apples on a plain light gray surface against a plain light gray background. The red apples are arranged in a 3-by-3 grid, with exactly three rows and exactly three red apples in each row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "bottles_10_5_5",
+      "object_category": "bottles",
+      "object_phrase": "bottles",
+      "count": 10,
+      "layout": "5+5",
+      "row_counts_back_to_front": [
+        5,
+        5
+      ],
+      "prompt": "A studio photograph of exactly ten bottles on a plain light gray surface against a plain light gray background. The bottles are arranged in two horizontal rows, with exactly five bottles in the back row and exactly five bottles in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "toy_cars_10_5_5",
+      "object_category": "toy_cars",
+      "object_phrase": "toy cars",
+      "count": 10,
+      "layout": "5+5",
+      "row_counts_back_to_front": [
+        5,
+        5
+      ],
+      "prompt": "A studio photograph of exactly ten toy cars on a plain light gray surface against a plain light gray background. The toy cars are arranged in two horizontal rows, with exactly five toy cars in the back row and exactly five toy cars in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "tennis_balls_10_5_5",
+      "object_category": "tennis_balls",
+      "object_phrase": "tennis balls",
+      "count": 10,
+      "layout": "5+5",
+      "row_counts_back_to_front": [
+        5,
+        5
+      ],
+      "prompt": "A studio photograph of exactly ten tennis balls on a plain light gray surface against a plain light gray background. The tennis balls are arranged in two horizontal rows, with exactly five tennis balls in the back row and exactly five tennis balls in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "cups_10_5_5",
+      "object_category": "cups",
+      "object_phrase": "cups",
+      "count": 10,
+      "layout": "5+5",
+      "row_counts_back_to_front": [
+        5,
+        5
+      ],
+      "prompt": "A studio photograph of exactly ten cups on a plain light gray surface against a plain light gray background. The cups are arranged in two horizontal rows, with exactly five cups in the back row and exactly five cups in the front row. All objects are fully visible. No other objects. No text."
+    },
+    {
+      "id": "apples_10_5_5",
+      "object_category": "apples",
+      "object_phrase": "red apples",
+      "count": 10,
+      "layout": "5+5",
+      "row_counts_back_to_front": [
+        5,
+        5
+      ],
+      "prompt": "A studio photograph of exactly ten red apples on a plain light gray surface against a plain light gray background. The red apples are arranged in two horizontal rows, with exactly five red apples in the back row and exactly five red apples in the front row. All objects are fully visible. No other objects. No text."
+    }
+  ]
+}

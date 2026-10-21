@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_id": "bottle_n08_s0000000001",
+  "seconds": 141.342764377594,
+  "results": [
+    {
+      "step": 5,
+      "id": "prompt__bottle__n08to10__seed0000000001__s05",
+      "state_equal": true,
+      "image_pixel_equal": true,
+      "image": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/validation/prompt__bottle__n08to10__seed0000000001__s05.png"
+    },
+    {
+      "step": 10,
+      "id": "prompt__bottle__n08to10__seed0000000001__s10",
+      "state_equal": true,
+      "image_pixel_equal": true,
+      "image": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/validation/prompt__bottle__n08to10__seed0000000001__s10.png"
+    }
+  ],
+  "validated_at": "2026-09-26T16:43:57+0800"
+}

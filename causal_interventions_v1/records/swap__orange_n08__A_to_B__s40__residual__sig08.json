@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__orange_n08__A_to_B__s40__residual__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "orange_n08",
+    "category": "orange",
+    "target": 8,
+    "direction": "A_to_B",
+    "step": 40,
+    "intervention": "residual",
+    "sigma": 8,
+    "donor_source_id": "orange_n08_s0000000002",
+    "receiver_source_id": "orange_n08_s0000000000",
+    "donor_seed": 2,
+    "receiver_seed": 0,
+    "donor_prompt": "A studio photograph of exactly eight oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly eight oranges on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "oranges",
+    "index": 540
+  },
+  "image": "images/swap__orange_n08__A_to_B__s40__residual__sig08.png",
+  "seconds": 16.727317810058594,
+  "worker": "gpu2",
+  "completed_at": "2026-09-25T04:27:44+0800",
+  "perturbation_l2": 697.1959838867188,
+  "perturbation_rms": 0.9628790616989136,
+  "relative_l2": 1.3451499938964844
+}

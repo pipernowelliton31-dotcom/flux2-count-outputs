@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "config_id": "prompt_switch_mechanism_v1_phase2",
+  "model": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+  "fine_root": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1",
+  "source": "/home/lsj/flux2-count/outputs/numerosity_1120",
+  "internal_root": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1",
+  "state_root": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/states",
+  "projection_path": "/data/storage22t/lsj/flux2-count/outputs/internal_states_1120_v1/metadata/projection_4096_to_128.pt",
+  "projection_sha256": "570b4177bab4606803fd2c0b2a692ea42a7386994aa972fad19282c452880952",
+  "steps": 50,
+  "guidance": 4.0,
+  "height": 1024,
+  "width": 1024,
+  "dtype": "bfloat16",
+  "layers": [
+    "D0",
+    "D3",
+    "D7",
+    "S0",
+    "S7",
+    "S15",
+    "S23"
+  ],
+  "capture_branch": "conditional_old_and_new",
+  "expected_jobs": 3200,
+  "hard_gate": "torch.equal(old one-step, saved x_{s+1}) for every s=1..9",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__baseball_n10_s0000000017__to08__s02",
+  "job": {
+    "id": "prompt__baseball__n10to08__seed0000000017__s02",
+    "experiment": "prompt_switch_fine",
+    "category": "baseball",
+    "seed": 17,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 2,
+    "source_state_id": "baseball_n10_s0000000017",
+    "old_baseline_id": "baseball_n10_s0000000017",
+    "new_baseline_id": "baseball_n08_s0000000017",
+    "old_prompt": "A studio photograph of exactly ten baseballs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight baseballs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "baseballs",
+    "index": 541,
+    "velocity_index": 541,
+    "velocity_id": "velocity__baseball_n10_s0000000017__to08__s02"
+  },
+  "old_reproduction": {
+    "comparable": true,
+    "equal": true,
+    "max_abs": 0.0
+  },
+  "seconds": 2.3089077472686768,
+  "worker": "gpu3",
+  "completed_at": "2026-09-27T16:43:23+0800"
+}

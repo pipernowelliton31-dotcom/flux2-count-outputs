@@ -1,0 +1,2 @@
+﻿id,image_path,object_text,category,target,seed,cache_hit,countgd_main,image_sha256,width,height,message,status
+steer__baseball__baseball_n10_s0000000003__probe__s04__l0p5,steer__baseball__baseball_n10_s0000000003__probe__s04__l0p5.png,baseballs,baseballs,10,3,False,0,7a7c5684dd87ab63c667e37696d3aaa9bc7fbe7db9d577f405f16bc5d2a69c7d,1024,1024,RuntimeError: Could not import CountGD modules. Run this script inside the CountGD environment and make sure --countgd-root points to the CountGD repository.,detection_error

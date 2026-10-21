@@ -1,0 +1,14 @@
+{
+  "index": 13,
+  "id": "apple_n06_s0000000011",
+  "category": "apple",
+  "target": 6,
+  "seed": 11,
+  "original_countgd": 4,
+  "layout": "3+3",
+  "spec_id": "apples_6_3_3",
+  "object_phrase": "red apples",
+  "prompt": "A studio photograph of exactly six red apples on a plain light gray surface against a plain light gray background. The red apples are arranged in two horizontal rows, with exactly three red apples in the back row and exactly three red apples in the front row. All objects are fully visible. No other objects. No text.",
+  "config_hash": "01f8a866cda0d1cae49900f7ab3cddb72ae2f158f9217dc2a8f327c717739275",
+  "seconds": 72.78467297554016
+}

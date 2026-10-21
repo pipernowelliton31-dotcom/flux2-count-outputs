@@ -1,0 +1,2 @@
+﻿id,det_idx,query_idx,max_token_idx,confidence,cx_norm,cy_norm,w_norm,h_norm,keep_020,keep_023,keep_026
+h4ctl__lemon_n10__s30__H4_random_norm__r2,0,6,2,0.26684632897377014,0.8180335760116577,0.5245190262794495,0.1353868842124939,0.097284235060215,True,True,True

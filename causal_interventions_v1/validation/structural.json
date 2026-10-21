@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "roundtrip_exact": true,
+  "self_swap_max_error": 0.0,
+  "sigmas": {
+    "4": {
+      "max_reconstruction_error": 2.384185791015625e-07
+    },
+    "8": {
+      "max_reconstruction_error": 2.384185791015625e-07
+    },
+    "16": {
+      "max_reconstruction_error": 2.384185791015625e-07
+    }
+  }
+}

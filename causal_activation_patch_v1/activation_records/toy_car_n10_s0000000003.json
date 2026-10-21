@@ -1,0 +1,544 @@
+{
+  "status": "complete",
+  "id": "toy_car_n10_s0000000003",
+  "job_id": "cap__toy_car_n10_s0000000003",
+  "config_hash": "b893e56383f39e2f0ee08508747dc5d0e1c0a3c1c51a5f7246f84759fea95043",
+  "source_hash": "0b35ca0d73cee301af5ded3ac0f0473d19877569d8a8d8a6d86c313a86aeab01",
+  "bytes": 805322275,
+  "seconds": 77.20489549636841,
+  "worker": "gpu5",
+  "num_text_tokens": 512,
+  "hook_counts": {
+    "patch_applied": 0,
+    "uncond_patch_blocked": 0,
+    "d3_pre_cond": 50,
+    "d3_pre_uncond": 50,
+    "d3_post_cond": 50,
+    "d3_post_uncond": 50,
+    "d7_pre_cond": 50,
+    "d7_pre_uncond": 50,
+    "d7_post_cond": 50,
+    "d7_post_uncond": 50,
+    "s7_pre_cond": 50,
+    "s7_pre_uncond": 50,
+    "s7_post_cond": 50,
+    "s7_post_uncond": 50,
+    "s15_pre_cond": 50,
+    "s15_pre_uncond": 50,
+    "s15_post_cond": 50,
+    "s15_post_uncond": 50
+  },
+  "grid": {
+    "D3": {
+      "3": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "5": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "8": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      }
+    },
+    "D7": {
+      "3": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "5": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "8": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      }
+    },
+    "S7": {
+      "3": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "5": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "8": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      }
+    },
+    "S15": {
+      "3": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "5": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      },
+      "8": {
+        "n_tokens": 4096,
+        "inferred_grid": [
+          64,
+          64
+        ],
+        "expected_grid": [
+          64,
+          64
+        ],
+        "matches_expected": true,
+        "is_square": true
+      }
+    }
+  },
+  "shapes": {
+    "D3": {
+      "3": {
+        "h_in": [
+          1,
+          4096,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "text_in": [
+          1,
+          512,
+          4096
+        ],
+        "h_out": [
+          1,
+          4096,
+          4096
+        ],
+        "text_out": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "5": {
+        "h_in": [
+          1,
+          4096,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "text_in": [
+          1,
+          512,
+          4096
+        ],
+        "h_out": [
+          1,
+          4096,
+          4096
+        ],
+        "text_out": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "8": {
+        "h_in": [
+          1,
+          4096,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "text_in": [
+          1,
+          512,
+          4096
+        ],
+        "h_out": [
+          1,
+          4096,
+          4096
+        ],
+        "text_out": [
+          1,
+          512,
+          4096
+        ]
+      }
+    },
+    "D7": {
+      "3": {
+        "h_in": [
+          1,
+          4096,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "text_in": [
+          1,
+          512,
+          4096
+        ],
+        "h_out": [
+          1,
+          4096,
+          4096
+        ],
+        "text_out": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "5": {
+        "h_in": [
+          1,
+          4096,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "text_in": [
+          1,
+          512,
+          4096
+        ],
+        "h_out": [
+          1,
+          4096,
+          4096
+        ],
+        "text_out": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "8": {
+        "h_in": [
+          1,
+          4096,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "text_in": [
+          1,
+          512,
+          4096
+        ],
+        "h_out": [
+          1,
+          4096,
+          4096
+        ],
+        "text_out": [
+          1,
+          512,
+          4096
+        ]
+      }
+    },
+    "S7": {
+      "3": {
+        "h_in_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_in_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_in_text": [
+          1,
+          512,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "h_out_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_out_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_out_text": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "5": {
+        "h_in_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_in_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_in_text": [
+          1,
+          512,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "h_out_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_out_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_out_text": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "8": {
+        "h_in_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_in_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_in_text": [
+          1,
+          512,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "h_out_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_out_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_out_text": [
+          1,
+          512,
+          4096
+        ]
+      }
+    },
+    "S15": {
+      "3": {
+        "h_in_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_in_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_in_text": [
+          1,
+          512,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "h_out_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_out_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_out_text": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "5": {
+        "h_in_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_in_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_in_text": [
+          1,
+          512,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "h_out_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_out_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_out_text": [
+          1,
+          512,
+          4096
+        ]
+      },
+      "8": {
+        "h_in_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_in_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_in_text": [
+          1,
+          512,
+          4096
+        ],
+        "dtype": "bfloat16",
+        "h_out_joint": [
+          1,
+          4608,
+          4096
+        ],
+        "h_out_image": [
+          1,
+          4096,
+          4096
+        ],
+        "h_out_text": [
+          1,
+          512,
+          4096
+        ]
+      }
+    }
+  },
+  "completed_at": "2026-10-12T16:43:47+0800"
+}

@@ -1,0 +1,24 @@
+{
+  "h4_specificity_supported": false,
+  "primary_steps": [
+    5,
+    10,
+    20
+  ],
+  "primary_units": 15,
+  "units_positive_in_both_metrics": 9,
+  "required_positive_units": 12,
+  "median_count_specificity_gap": 0.5925925925925926,
+  "required_median_count_gap": 0.5,
+  "median_geometry_specificity_gap": 0.23014704603250685,
+  "required_median_geometry_gap": 0.25,
+  "pairs_with_aligned_count_attraction_ge_0_5_at_two_or_more_primary_steps": 3,
+  "required_pairs": 4,
+  "pair_primary_success_counts": {
+    "apple_n08": 1,
+    "bottle_n08": 3,
+    "lemon_n10": 1,
+    "tennis_ball_n10": 2,
+    "wooden_cube_n08": 2
+  }
+}

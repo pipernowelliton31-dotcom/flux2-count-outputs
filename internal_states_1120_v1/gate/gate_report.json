@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "id": "apple_n04_s0000000042",
+      "passed": true,
+      "initial_sha256": "56db574cc685e659f6383b81ed173c4c6bc42f23b42362f86aa2e646d996a06d",
+      "expected_initial_sha256": "56db574cc685e659f6383b81ed173c4c6bc42f23b42362f86aa2e646d996a06d",
+      "png_sha256": "82c0c67e6e1ea01aaddbe9844cb84b23395a40369533e52f81d0cf1ee88a09f0",
+      "expected_png_sha256": "82c0c67e6e1ea01aaddbe9844cb84b23395a40369533e52f81d0cf1ee88a09f0",
+      "pixels_equal": true,
+      "seconds": 73.09168791770935
+    },
+    {
+      "id": "lemon_n07_s0000002026",
+      "passed": true,
+      "initial_sha256": "69a18561283d644cf0e6216a52109fa3e3ba8b4270e947de98187007de709c4b",
+      "expected_initial_sha256": "69a18561283d644cf0e6216a52109fa3e3ba8b4270e947de98187007de709c4b",
+      "png_sha256": "d94e533b73eafe307cd9d9f08acdd5ada8983ac6301d129f8c272e85f85dcb83",
+      "expected_png_sha256": "d94e533b73eafe307cd9d9f08acdd5ada8983ac6301d129f8c272e85f85dcb83",
+      "pixels_equal": true,
+      "seconds": 75.90545892715454
+    },
+    {
+      "id": "bottle_n10_s0000000011",
+      "passed": true,
+      "initial_sha256": "4892fde594627848b0b2bc228b4d5eae6737fbd50d55054c1f05093a20b269b2",
+      "expected_initial_sha256": "4892fde594627848b0b2bc228b4d5eae6737fbd50d55054c1f05093a20b269b2",
+      "png_sha256": "570906d7a92476b0c7fa5f51ae997b206ac5f4a472f95e17583d395528f0d697",
+      "expected_png_sha256": "570906d7a92476b0c7fa5f51ae997b206ac5f4a472f95e17583d395528f0d697",
+      "pixels_equal": true,
+      "seconds": 76.76442265510559
+    }
+  ]
+}

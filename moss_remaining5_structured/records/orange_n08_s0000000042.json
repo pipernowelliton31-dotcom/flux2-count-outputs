@@ -1,0 +1,14 @@
+{
+  "index": 15,
+  "id": "orange_n08_s0000000042",
+  "category": "orange",
+  "target": 8,
+  "seed": 42,
+  "layout": "4+4",
+  "object_phrase": "oranges",
+  "spec_id": "orange_8_4+4",
+  "prompt": "A studio photograph of exactly eight oranges on a plain light gray surface against a plain light gray background. The oranges are arranged in two horizontal rows, with exactly four oranges in the back row and exactly four oranges in the front row. All objects are fully visible. No other objects. No text.",
+  "config_hash": "f172149621d8ade92bfd38e4163fdf51c7808530556daca749dac764413bcc3e",
+  "seconds": 56.97594857215881,
+  "rank": 0
+}

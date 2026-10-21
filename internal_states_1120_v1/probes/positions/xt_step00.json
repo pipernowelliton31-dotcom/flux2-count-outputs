@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "structure": {
+      "macro_f1": 0.30940988835725675,
+      "balanced_accuracy": 0.3333333333333333,
+      "recall_row": 1.0,
+      "recall_radial": 0.0,
+      "recall_irregular": 0.0
+    },
+    "count_error": {
+      "r2": -0.002656398738730914,
+      "mae": 1.4896729201078416,
+      "spearman": -0.02561682916610194
+    },
+    "count_error_residual": {
+      "r2": 0.00031426614746588033,
+      "mae": 1.3584703842165513,
+      "spearman": 0.060728424634163745
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_seeds": [
+        42,
+        0,
+        4,
+        8
+      ],
+      "C": 0.0001,
+      "alpha": 0.01,
+      "residual_alpha": 0.0001
+    },
+    {
+      "fold": 1,
+      "test_seeds": [
+        2026,
+        1,
+        5,
+        9
+      ],
+      "C": 0.0001,
+      "alpha": 1.0,
+      "residual_alpha": 0.01
+    },
+    {
+      "fold": 2,
+      "test_seeds": [
+        17,
+        2,
+        6,
+        10
+      ],
+      "C": 0.0001,
+      "alpha": 1.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 3,
+      "test_seeds": [
+        777,
+        3,
+        7,
+        11
+      ],
+      "C": 0.0001,
+      "alpha": 1.0,
+      "residual_alpha": 0.0001
+    }
+  ],
+  "key": "xt_step00",
+  "family": "x_t",
+  "layer": null,
+  "step": 0
+}

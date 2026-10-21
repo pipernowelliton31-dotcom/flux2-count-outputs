@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__rubber_duck_n10__B_to_A__s00__mean__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "rubber_duck_n10",
+    "category": "rubber_duck",
+    "target": 10,
+    "direction": "B_to_A",
+    "step": 0,
+    "intervention": "mean",
+    "sigma": 8,
+    "donor_source_id": "rubber_duck_n10_s0000000000",
+    "receiver_source_id": "rubber_duck_n10_s0000000004",
+    "donor_seed": 0,
+    "receiver_seed": 4,
+    "donor_prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten yellow rubber ducks on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "yellow rubber ducks",
+    "index": 636
+  },
+  "image": "images/swap__rubber_duck_n10__B_to_A__s00__mean__sig08.png",
+  "seconds": 76.32209777832031,
+  "worker": "gpu1",
+  "completed_at": "2026-09-25T04:39:41+0800",
+  "perturbation_l2": 9.14179515838623,
+  "perturbation_rms": 0.012625490315258503,
+  "relative_l2": 0.012723476625978947
+}

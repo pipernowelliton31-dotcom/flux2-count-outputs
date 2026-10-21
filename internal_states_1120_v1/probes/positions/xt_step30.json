@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "structure": {
+      "macro_f1": 0.4828756034090486,
+      "balanced_accuracy": 0.5117929997179832,
+      "recall_row": 0.8628865979381444,
+      "recall_radial": 0.35106382978723405,
+      "recall_irregular": 0.32142857142857145
+    },
+    "count_error": {
+      "r2": 0.3489307312991623,
+      "mae": 1.1935137366876005,
+      "spearman": 0.5030842351431356
+    },
+    "count_error_residual": {
+      "r2": 0.10131285874328555,
+      "mae": 1.3081802034907013,
+      "spearman": 0.2208404223110171
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_seeds": [
+        42,
+        0,
+        4,
+        8
+      ],
+      "C": 0.01,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 1,
+      "test_seeds": [
+        2026,
+        1,
+        5,
+        9
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 2,
+      "test_seeds": [
+        17,
+        2,
+        6,
+        10
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 3,
+      "test_seeds": [
+        777,
+        3,
+        7,
+        11
+      ],
+      "C": 0.01,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    }
+  ],
+  "key": "xt_step30",
+  "family": "x_t",
+  "layer": null,
+  "step": 30
+}

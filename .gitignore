@@ -1,0 +1,8 @@
+# Keep only tabular/json result files. Drop images, logs, scripts, caches of other types.
+*
+!*/
+!**/*.csv
+!**/*.json
+!**/*.jsonl
+!.gitignore
+!README.md

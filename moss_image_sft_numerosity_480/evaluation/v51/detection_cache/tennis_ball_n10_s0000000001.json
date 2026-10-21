@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "tennis_ball_n10_s0000000001",
+  "object_text": "tennis balls",
+  "image_sha256": "76e2cc6172a9db8d9fdfb9fe7a05d9c87f6942bb80a946a49c6d0db0a9a939c0",
+  "confidence_threshold": 0.26,
+  "image_path": "tennis_ball_n10_s0000000001.png"
+}

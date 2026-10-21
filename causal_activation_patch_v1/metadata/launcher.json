@@ -1,0 +1,15 @@
+{
+  "tmux_session": "cap_patch_v1",
+  "gpus": [
+    "0",
+    "5"
+  ],
+  "started_at": "2026-10-12T21:43:08+0800",
+  "logs": {
+    "0": "/data/storage22t/lsj/flux2-count/outputs/causal_activation_patch_v1/logs/gpu0.log",
+    "1": "/data/storage22t/lsj/flux2-count/outputs/causal_activation_patch_v1/logs/gpu1.log",
+    "5": "/data/storage22t/lsj/flux2-count/outputs/causal_activation_patch_v1/logs/gpu5.log"
+  },
+  "root": "/data/storage22t/lsj/flux2-count/outputs/causal_activation_patch_v1",
+  "mode": "run-exploration"
+}

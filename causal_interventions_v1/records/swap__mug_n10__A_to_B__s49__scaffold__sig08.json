@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__mug_n10__A_to_B__s49__scaffold__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "mug_n10",
+    "category": "mug",
+    "target": 10,
+    "direction": "A_to_B",
+    "step": 49,
+    "intervention": "scaffold",
+    "sigma": 8,
+    "donor_source_id": "mug_n10_s0000000005",
+    "receiver_source_id": "mug_n10_s0000000002",
+    "donor_seed": 5,
+    "receiver_seed": 2,
+    "donor_prompt": "A studio photograph of exactly ten ceramic mugs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten ceramic mugs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "ceramic mugs",
+    "index": 498
+  },
+  "image": "images/swap__mug_n10__A_to_B__s49__scaffold__sig08.png",
+  "seconds": 2.313473701477051,
+  "worker": "gpu4",
+  "completed_at": "2026-09-25T04:22:24+0800",
+  "perturbation_l2": 161.378173828125,
+  "perturbation_rms": 0.22287480533123016,
+  "relative_l2": 0.291088730096817
+}

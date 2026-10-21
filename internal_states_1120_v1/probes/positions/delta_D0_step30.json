@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "structure": {
+      "macro_f1": 0.4827098630800628,
+      "balanced_accuracy": 0.48137462267205633,
+      "recall_row": 0.9103092783505154,
+      "recall_radial": 0.26595744680851063,
+      "recall_irregular": 0.26785714285714285
+    },
+    "count_error": {
+      "r2": 0.39154155097195364,
+      "mae": 1.1844791248706834,
+      "spearman": 0.5254223107305438
+    },
+    "count_error_residual": {
+      "r2": 0.1079997952325451,
+      "mae": 1.3129267961328879,
+      "spearman": 0.27505970995204365
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_seeds": [
+        42,
+        0,
+        4,
+        8
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 1,
+      "test_seeds": [
+        2026,
+        1,
+        5,
+        9
+      ],
+      "C": 1.0,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 2,
+      "test_seeds": [
+        17,
+        2,
+        6,
+        10
+      ],
+      "C": 0.0001,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    },
+    {
+      "fold": 3,
+      "test_seeds": [
+        777,
+        3,
+        7,
+        11
+      ],
+      "C": 0.01,
+      "alpha": 10000.0,
+      "residual_alpha": 10000.0
+    }
+  ],
+  "key": "delta_D0_step30",
+  "family": "delta_h",
+  "layer": "D0",
+  "step": 30
+}

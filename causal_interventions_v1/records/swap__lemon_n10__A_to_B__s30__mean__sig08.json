@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__lemon_n10__A_to_B__s30__mean__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "lemon_n10",
+    "category": "lemon",
+    "target": 10,
+    "direction": "A_to_B",
+    "step": 30,
+    "intervention": "mean",
+    "sigma": 8,
+    "donor_source_id": "lemon_n10_s0000000007",
+    "receiver_source_id": "lemon_n10_s0000000017",
+    "donor_seed": 7,
+    "receiver_seed": 17,
+    "donor_prompt": "A studio photograph of exactly ten lemons on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten lemons on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "lemons",
+    "index": 386
+  },
+  "image": "images/swap__lemon_n10__A_to_B__s30__mean__sig08.png",
+  "seconds": 31.266244888305664,
+  "worker": "gpu1",
+  "completed_at": "2026-09-25T04:09:49+0800",
+  "perturbation_l2": 15.254680633544922,
+  "perturbation_rms": 0.021066315472126007,
+  "relative_l2": 0.025100236758589745
+}

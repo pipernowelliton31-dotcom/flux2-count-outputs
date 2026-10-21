@@ -1,0 +1,12 @@
+{
+  "job": {
+    "index": 59,
+    "id": "toy_car_n10_s0000002026",
+    "category": "toy_car",
+    "target": 10,
+    "seed": 2026,
+    "prompt": "A studio photograph of exactly ten toy cars on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text."
+  },
+  "error": "OutOfMemoryError('CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 47.37 GiB of which 14.50 MiB is free. Process 2308178 has 20.95 GiB memory in use. Process 1414739 has 26.38 GiB memory in use. Of the allocated memory 25.76 GiB is allocated by PyTorch, and 128.80 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)')",
+  "time": 1792235124.5798943
+}

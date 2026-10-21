@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "baseball_n06_s0000000002",
+  "index": 444,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/baseball_n06_s0000000002.pt",
+  "bytes": 13795712,
+  "seconds": 76.45552396774292,
+  "rank": 0,
+  "gate": false,
+  "completed_at": "2026-09-24T22:03:34+0800"
+}

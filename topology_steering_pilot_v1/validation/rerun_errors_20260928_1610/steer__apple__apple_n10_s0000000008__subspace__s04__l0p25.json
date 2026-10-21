@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "attempts": 2,
+  "job": {
+    "category": "apple",
+    "source_id": "apple_n10_s0000000008",
+    "trajectory_id": "apple_n10_s0000000008__to08",
+    "prompt": "A studio photograph of exactly ten red apples on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "baseline_image": "/home/lsj/flux2-count/outputs/numerosity_1120/images/apple_n10_s0000000008.png",
+    "baseline_K": 3,
+    "baseline_N": 15,
+    "baseline_occupancy": "[5,5,5]",
+    "target": 10,
+    "seed": 8,
+    "object_text": "red apples",
+    "method": "subspace",
+    "step": 4,
+    "artifact_step": 4,
+    "lambda": 0.25,
+    "id": "steer__apple__apple_n10_s0000000008__subspace__s04__l0p25",
+    "index": 48,
+    "artifact": "artifacts/loco_apple__step04.pt"
+  },
+  "worker": "gpu4",
+  "error": "RuntimeError('Subspace BF16 feature gate failed: 0.034066665917634964')",
+  "failed_at": "2026-09-28T16:10:00+0800"
+}

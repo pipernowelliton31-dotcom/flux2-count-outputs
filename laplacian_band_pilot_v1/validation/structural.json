@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "roundtrip_exact": true,
+  "max_reconstruction_error": 2.384185791015625e-07,
+  "reconstruction_errors": {
+    "donor": 2.384185791015625e-07,
+    "receiver": 2.384185791015625e-07
+  },
+  "self_swap_max_errors": {
+    "L16": 0.0,
+    "B8": 0.0,
+    "B4": 0.0,
+    "H4": 0.0,
+    "L16_B8": 0.0,
+    "L16_B8_B4": 0.0
+  },
+  "sham_deterministic": true,
+  "sham_max_channel_l2_relative_error": 3.4895057865469425e-07,
+  "resume_skips_complete": true
+}

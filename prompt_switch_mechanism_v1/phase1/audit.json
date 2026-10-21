@@ -1,0 +1,12 @@
+{
+  "phase": "phase1",
+  "status": "complete",
+  "trajectories": 320,
+  "rows": 3200,
+  "morphology_counts": {
+    "nonmonotonic_uncertain": 159,
+    "sharp": 130,
+    "gradual": 18,
+    "persistent_hybrid": 13
+  }
+}

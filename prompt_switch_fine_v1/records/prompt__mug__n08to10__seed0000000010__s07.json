@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "config_id": "prompt_switch_fine_v1",
+  "job": {
+    "id": "prompt__mug__n08to10__seed0000000010__s07",
+    "experiment": "prompt_switch_fine",
+    "category": "mug",
+    "seed": 10,
+    "old_target": 8,
+    "new_target": 10,
+    "target": 10,
+    "step": 7,
+    "source_state_id": "mug_n08_s0000000010",
+    "old_baseline_id": "mug_n08_s0000000010",
+    "new_baseline_id": "mug_n10_s0000000010",
+    "old_prompt": "A studio photograph of exactly eight ceramic mugs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly ten ceramic mugs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "ceramic mugs",
+    "index": 2856
+  },
+  "seconds": 62.687495946884155,
+  "worker": "gpu5",
+  "old_pixel_validation": false,
+  "completed_at": "2026-09-27T01:10:44+0800"
+}

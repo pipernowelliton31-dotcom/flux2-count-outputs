@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "steer__tennis_ball__tennis_ball_n10_s0000000001__structured_prompt__s05__lna",
+  "object_text": "tennis balls",
+  "image_sha256": "49c82a5a729198d00b3ee8238439a984a8cc7ad14da486ba903702f0e3b61d50",
+  "confidence_threshold": 0.26,
+  "image_path": "steer__tennis_ball__tennis_ball_n10_s0000000001__structured_prompt__s05__lna.png"
+}

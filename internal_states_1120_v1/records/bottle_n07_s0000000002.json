@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "bottle_n07_s0000000002",
+  "index": 456,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/bottle_n07_s0000000002.pt",
+  "bytes": 13795490,
+  "seconds": 76.55662131309509,
+  "rank": 0,
+  "gate": false,
+  "completed_at": "2026-09-24T22:06:07+0800"
+}

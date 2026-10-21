@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "name": "resume_bottle",
+      "source_id": "bottle_n08_s0000000001",
+      "step": 20,
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    },
+    {
+      "name": "resume_lemon",
+      "source_id": "lemon_n10_s0000000007",
+      "step": 20,
+      "max_pixel_diff": 0,
+      "differing_pixels": 0
+    }
+  ]
+}

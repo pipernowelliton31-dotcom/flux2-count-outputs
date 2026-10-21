@@ -1,0 +1,62 @@
+{
+  "total": 3200,
+  "shards": [
+    {
+      "shard": 0,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard00/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard00/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard00/countgd.log"
+    },
+    {
+      "shard": 1,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard01/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard01/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard01/countgd.log"
+    },
+    {
+      "shard": 2,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard02/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard02/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard02/countgd.log"
+    },
+    {
+      "shard": 3,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard03/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard03/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard03/countgd.log"
+    },
+    {
+      "shard": 4,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard04/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard04/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard04/countgd.log"
+    },
+    {
+      "shard": 5,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard05/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard05/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard05/countgd.log"
+    },
+    {
+      "shard": 6,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard06/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard06/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard06/countgd.log"
+    },
+    {
+      "shard": 7,
+      "count": 400,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard07/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard07/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/prompt_switch_fine_v1/evaluation/parallel/shard07/countgd.log"
+    }
+  ],
+  "created_at": "2026-09-27T02:22:43+0800"
+}

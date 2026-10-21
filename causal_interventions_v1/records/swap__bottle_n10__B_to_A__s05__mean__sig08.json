@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__bottle_n10__B_to_A__s05__mean__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "bottle_n10",
+    "category": "bottle",
+    "target": 10,
+    "direction": "B_to_A",
+    "step": 5,
+    "intervention": "mean",
+    "sigma": 8,
+    "donor_source_id": "bottle_n10_s0000000010",
+    "receiver_source_id": "bottle_n10_s0000000005",
+    "donor_seed": 10,
+    "receiver_seed": 5,
+    "donor_prompt": "A studio photograph of exactly ten water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "water bottles",
+    "index": 303
+  },
+  "image": "images/swap__bottle_n10__B_to_A__s05__mean__sig08.png",
+  "seconds": 64.65751433372498,
+  "worker": "gpu7",
+  "completed_at": "2026-09-25T03:59:37+0800",
+  "perturbation_l2": 6.279244422912598,
+  "perturbation_rms": 0.00867433287203312,
+  "relative_l2": 0.008861894719302654
+}

@@ -1,0 +1,342 @@
+{
+  "expand_recommended": true,
+  "rule": "same real branch/step: both count attractions >=0.5, mean margin over sham >=0.5, both geometry attractions >0",
+  "candidates": [
+    {
+      "intervention": "L16",
+      "step": 0,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9812688520330896,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16",
+      "step": 5,
+      "min_pair_count_attraction": -0.8333333333333334,
+      "mean_count_margin_over_sham": 1.0833333333333333,
+      "min_pair_geometry_attraction": -1.2515521677296946,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16",
+      "step": 10,
+      "min_pair_count_attraction": -0.8333333333333334,
+      "mean_count_margin_over_sham": 0.3333333333333333,
+      "min_pair_geometry_attraction": -0.9462718673847211,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16",
+      "step": 20,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.0813643364807461,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16",
+      "step": 30,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.0968596521981,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16",
+      "step": 40,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9899112931890334,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16",
+      "step": 49,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9846422253762879,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B8",
+      "step": 0,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": -0.75,
+      "min_pair_geometry_attraction": -1.0205736634275424,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B8",
+      "step": 5,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.08333333333333331,
+      "min_pair_geometry_attraction": -0.8938111683018372,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B8",
+      "step": 10,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.11660054364479,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B8",
+      "step": 20,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.1351889095446208,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B8",
+      "step": 30,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.1080918024775739,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B8",
+      "step": 40,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9934288347673677,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B8",
+      "step": 49,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9896426242708305,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B4",
+      "step": 0,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.0122004715384652,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B4",
+      "step": 5,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9619643439564591,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B4",
+      "step": 10,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.1133047328397436,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B4",
+      "step": 20,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.1116378185406968,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B4",
+      "step": 30,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.08333333333333331,
+      "min_pair_geometry_attraction": -0.9380254113913783,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B4",
+      "step": 40,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9898612427691557,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "B4",
+      "step": 49,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9944043216056759,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "H4",
+      "step": 0,
+      "min_pair_count_attraction": 0.16666666666666666,
+      "mean_count_margin_over_sham": 0.8333333333333334,
+      "min_pair_geometry_attraction": -0.4142535580510085,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "H4",
+      "step": 5,
+      "min_pair_count_attraction": 1.0,
+      "mean_count_margin_over_sham": 2.0,
+      "min_pair_geometry_attraction": 0.5723006819952668,
+      "passes_expansion_rule": true
+    },
+    {
+      "intervention": "H4",
+      "step": 10,
+      "min_pair_count_attraction": 0.16666666666666666,
+      "mean_count_margin_over_sham": 1.5833333333333335,
+      "min_pair_geometry_attraction": 0.44988925115462935,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "H4",
+      "step": 20,
+      "min_pair_count_attraction": 1.0,
+      "mean_count_margin_over_sham": 2.0,
+      "min_pair_geometry_attraction": 0.9537469446238466,
+      "passes_expansion_rule": true
+    },
+    {
+      "intervention": "H4",
+      "step": 30,
+      "min_pair_count_attraction": 1.0,
+      "mean_count_margin_over_sham": 2.0,
+      "min_pair_geometry_attraction": 0.968520309177664,
+      "passes_expansion_rule": true
+    },
+    {
+      "intervention": "H4",
+      "step": 40,
+      "min_pair_count_attraction": 1.0,
+      "mean_count_margin_over_sham": 2.0,
+      "min_pair_geometry_attraction": 0.965974977313284,
+      "passes_expansion_rule": true
+    },
+    {
+      "intervention": "H4",
+      "step": 49,
+      "min_pair_count_attraction": 1.0,
+      "mean_count_margin_over_sham": 2.0,
+      "min_pair_geometry_attraction": 0.9762084936314946,
+      "passes_expansion_rule": true
+    },
+    {
+      "intervention": "L16_B8",
+      "step": 0,
+      "min_pair_count_attraction": -0.8333333333333334,
+      "mean_count_margin_over_sham": 0.3333333333333333,
+      "min_pair_geometry_attraction": -0.8794608021530015,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8",
+      "step": 5,
+      "min_pair_count_attraction": -0.8333333333333334,
+      "mean_count_margin_over_sham": 1.0833333333333333,
+      "min_pair_geometry_attraction": -0.8850312390760294,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8",
+      "step": 10,
+      "min_pair_count_attraction": -0.8333333333333334,
+      "mean_count_margin_over_sham": 0.5833333333333333,
+      "min_pair_geometry_attraction": -0.9260304788359869,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8",
+      "step": 20,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.08333333333333331,
+      "min_pair_geometry_attraction": -0.9531513272050057,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8",
+      "step": 30,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -1.09517464850314,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8",
+      "step": 40,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9908201309015622,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8",
+      "step": 49,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9922419868128086,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8_B4",
+      "step": 0,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.25,
+      "min_pair_geometry_attraction": -0.27687033829770935,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8_B4",
+      "step": 5,
+      "min_pair_count_attraction": -0.5,
+      "mean_count_margin_over_sham": 1.0,
+      "min_pair_geometry_attraction": -0.39755653970483873,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8_B4",
+      "step": 10,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 1.0,
+      "min_pair_geometry_attraction": -0.80304781632206,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8_B4",
+      "step": 20,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.08333333333333331,
+      "min_pair_geometry_attraction": -0.9309061392463566,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8_B4",
+      "step": 30,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9688898526233307,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8_B4",
+      "step": 40,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9677946647075941,
+      "passes_expansion_rule": false
+    },
+    {
+      "intervention": "L16_B8_B4",
+      "step": 49,
+      "min_pair_count_attraction": -1.0,
+      "mean_count_margin_over_sham": 0.0,
+      "min_pair_geometry_attraction": -0.9737773735834401,
+      "passes_expansion_rule": false
+    }
+  ]
+}

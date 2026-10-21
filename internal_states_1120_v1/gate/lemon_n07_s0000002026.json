@@ -1,0 +1,10 @@
+{
+  "id": "lemon_n07_s0000002026",
+  "passed": true,
+  "initial_sha256": "69a18561283d644cf0e6216a52109fa3e3ba8b4270e947de98187007de709c4b",
+  "expected_initial_sha256": "69a18561283d644cf0e6216a52109fa3e3ba8b4270e947de98187007de709c4b",
+  "png_sha256": "d94e533b73eafe307cd9d9f08acdd5ada8983ac6301d129f8c272e85f85dcb83",
+  "expected_png_sha256": "d94e533b73eafe307cd9d9f08acdd5ada8983ac6301d129f8c272e85f85dcb83",
+  "pixels_equal": true,
+  "seconds": 75.90545892715454
+}

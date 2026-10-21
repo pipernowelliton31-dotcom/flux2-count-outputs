@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__bottle_n10_s0000000011__to08__s06",
+  "job": {
+    "id": "prompt__bottle__n10to08__seed0000000011__s06",
+    "experiment": "prompt_switch_fine",
+    "category": "bottle",
+    "seed": 11,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 6,
+    "source_state_id": "bottle_n10_s0000000011",
+    "old_baseline_id": "bottle_n10_s0000000011",
+    "new_baseline_id": "bottle_n08_s0000000011",
+    "old_prompt": "A studio photograph of exactly ten water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight water bottles on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "water bottles",
+    "index": 3165,
+    "velocity_index": 3165,
+    "velocity_id": "velocity__bottle_n10_s0000000011__to08__s06"
+  },
+  "old_reproduction": {
+    "comparable": true,
+    "equal": true,
+    "max_abs": 0.0
+  },
+  "seconds": 2.3331222534179688,
+  "worker": "gpu1",
+  "completed_at": "2026-09-27T16:56:57+0800"
+}

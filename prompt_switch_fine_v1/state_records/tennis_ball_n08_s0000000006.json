@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "config_hash": "b56fa9b091c116c9c7727a28b1573cfc8c73dd61d96999cd2725d93a0a9e3bc7",
+  "id": "tennis_ball_n08_s0000000006",
+  "seconds": 15.749271392822266,
+  "worker": "gpu6",
+  "validated_equal_steps": [
+    5,
+    10
+  ],
+  "completed_at": "2026-09-26T17:00:02+0800"
+}

@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "toy_car_n09_s0000002026",
+  "object_text": "toy cars",
+  "image_sha256": "0874c6699bb88bd55fd936d97055077f620dd66660358311004cdfce35a6948f",
+  "confidence_threshold": 0.26,
+  "image_path": "toy_car_n09_s0000002026.png"
+}

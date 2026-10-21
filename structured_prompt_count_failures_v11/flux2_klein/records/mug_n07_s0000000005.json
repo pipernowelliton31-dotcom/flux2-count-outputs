@@ -1,0 +1,14 @@
+{
+  "index": 133,
+  "id": "mug_n07_s0000000005",
+  "category": "mug",
+  "target": 7,
+  "seed": 5,
+  "original_countgd": 6,
+  "layout": "4+3",
+  "spec_id": "cups_7_4_3",
+  "object_phrase": "cups",
+  "prompt": "A studio photograph of exactly seven cups on a plain light gray surface against a plain light gray background. The cups are arranged in two horizontal rows, with exactly four cups in the back row and exactly three cups in the front row. All objects are fully visible. No other objects. No text.",
+  "config_hash": "01f8a866cda0d1cae49900f7ab3cddb72ae2f158f9217dc2a8f327c717739275",
+  "seconds": 72.58428573608398
+}

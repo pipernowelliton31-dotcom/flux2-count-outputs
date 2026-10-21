@@ -1,0 +1,64 @@
+{
+  "full": 2924,
+  "reused_partial": 1993,
+  "remaining": 931,
+  "shards": [
+    {
+      "gpu": 0,
+      "count": 117,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu0/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu0/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu0/countgd.log"
+    },
+    {
+      "gpu": 1,
+      "count": 117,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu1/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu1/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu1/countgd.log"
+    },
+    {
+      "gpu": 2,
+      "count": 117,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu2/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu2/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu2/countgd.log"
+    },
+    {
+      "gpu": 3,
+      "count": 116,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu3/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu3/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu3/countgd.log"
+    },
+    {
+      "gpu": 4,
+      "count": 116,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu4/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu4/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu4/countgd.log"
+    },
+    {
+      "gpu": 5,
+      "count": 116,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu5/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu5/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu5/countgd.log"
+    },
+    {
+      "gpu": 6,
+      "count": 116,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu6/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu6/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu6/countgd.log"
+    },
+    {
+      "gpu": 7,
+      "count": 116,
+      "manifest": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu7/eval_manifest.jsonl",
+      "out": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu7/v51",
+      "log": "/data/storage22t/lsj/flux2-count/outputs/causal_interventions_v1/evaluation/full_parallel/gpu7/countgd.log"
+    }
+  ],
+  "created_at": "2026-09-25T15:55:38+0800"
+}

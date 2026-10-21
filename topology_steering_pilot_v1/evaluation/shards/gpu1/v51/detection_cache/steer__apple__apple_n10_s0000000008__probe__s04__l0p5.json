@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "steer__apple__apple_n10_s0000000008__probe__s04__l0p5",
+  "object_text": "red apples",
+  "image_sha256": "e0ff1e1395226c061e18173d7dbb27729078755c6cdf66e54031b3e1ca378dd6",
+  "confidence_threshold": 0.26,
+  "image_path": "steer__apple__apple_n10_s0000000008__probe__s04__l0p5.png"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 134,
+  "id": "tennis_ball_n09_s0000000010",
+  "category": "tennis_ball",
+  "target": 9,
+  "seed": 10,
+  "original_countgd": 10,
+  "layout": "3x3",
+  "spec_id": "tennis_balls_9_3x3",
+  "object_phrase": "tennis balls",
+  "prompt": "A studio photograph of exactly nine tennis balls on a plain light gray surface against a plain light gray background. The tennis balls are arranged in a 3-by-3 grid, with exactly three rows and exactly three tennis balls in each row. All objects are fully visible. No other objects. No text.",
+  "config_hash": "87ee2f6892ee2e2d3a772b1c340644c804a3b5f56abdbe18ca62fc2f3b07f777",
+  "seconds": 52.89195919036865
+}

@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "prompt__toy_car__n10to08__seed0000000001__s08",
+  "object_text": "toy cars",
+  "image_sha256": "6b06e139ba1cbd6e8cc974a9980aea95912f0c25c5d6bba6848d292fbd95795a",
+  "confidence_threshold": 0.26,
+  "image_path": "prompt__toy_car__n10to08__seed0000000001__s08.png"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "id": "toy_car_n06_s0000000003",
+  "index": 517,
+  "config_hash": "5f60cdcbc26ca51edc0ae414102b1a5513562cd200fcea96bdeb74783ffbfea8",
+  "feature": "features/toy_car_n06_s0000000003.pt",
+  "bytes": 13795601,
+  "seconds": 79.76620078086853,
+  "rank": 1,
+  "gate": false,
+  "completed_at": "2026-09-24T22:26:08+0800"
+}

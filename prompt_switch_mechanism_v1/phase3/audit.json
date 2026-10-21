@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "alignment_rows": 109800,
+  "control_times": 10980,
+  "spaces": [
+    "block_delta_D0",
+    "block_delta_D3",
+    "block_delta_D7",
+    "block_delta_S0",
+    "block_delta_S15",
+    "block_delta_S23",
+    "block_delta_S7",
+    "h_in_D0",
+    "h_in_D3",
+    "h_in_D7",
+    "h_in_S0",
+    "h_in_S15",
+    "h_in_S23",
+    "h_in_S7",
+    "x_t"
+  ]
+}

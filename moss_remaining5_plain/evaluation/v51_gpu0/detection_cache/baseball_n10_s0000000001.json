@@ -1,0 +1,8 @@
+{
+  "cache_version": 1,
+  "id": "baseball_n10_s0000000001",
+  "object_text": "baseballs",
+  "image_sha256": "29a7f015f7c364144cc13be8582cfcf794762c2c40b81331174614ea188ce40d",
+  "confidence_threshold": 0.26,
+  "image_path": "baseball_n10_s0000000001.png"
+}

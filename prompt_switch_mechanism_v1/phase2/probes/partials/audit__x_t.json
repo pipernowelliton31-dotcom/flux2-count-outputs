@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rows": 7320,
+  "spaces": [
+    "x_t"
+  ],
+  "alpha": 100.0,
+  "permutations": 100
+}

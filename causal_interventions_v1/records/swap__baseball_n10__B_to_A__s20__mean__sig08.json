@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "config_id": "causal_interventions_v1",
+  "job": {
+    "id": "swap__baseball_n10__B_to_A__s20__mean__sig08",
+    "experiment": "scaffold_swap",
+    "pair_id": "baseball_n10",
+    "category": "baseball",
+    "target": 10,
+    "direction": "B_to_A",
+    "step": 20,
+    "intervention": "mean",
+    "sigma": 8,
+    "donor_source_id": "baseball_n10_s0000000006",
+    "receiver_source_id": "baseball_n10_s0000000000",
+    "donor_seed": 6,
+    "receiver_seed": 0,
+    "donor_prompt": "A studio photograph of exactly ten baseballs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "receiver_prompt": "A studio photograph of exactly ten baseballs on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "baseballs",
+    "index": 193
+  },
+  "image": "images/swap__baseball_n10__B_to_A__s20__mean__sig08.png",
+  "seconds": 47.688618659973145,
+  "worker": "gpu6",
+  "completed_at": "2026-09-25T03:46:36+0800",
+  "perturbation_l2": 8.90103530883789,
+  "perturbation_rms": 0.01229296438395977,
+  "relative_l2": 0.013441571034491062
+}

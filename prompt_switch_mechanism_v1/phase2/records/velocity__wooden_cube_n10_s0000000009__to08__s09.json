@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "config_hash": "14014d8df5ea7fe5e8591e72130a79426cd86df9e4f436e76b019b3772473c4c",
+  "id": "velocity__wooden_cube_n10_s0000000009__to08__s09",
+  "job": {
+    "id": "prompt__wooden_cube__n10to08__seed0000000009__s09",
+    "experiment": "prompt_switch_fine",
+    "category": "wooden_cube",
+    "seed": 9,
+    "old_target": 10,
+    "new_target": 8,
+    "target": 8,
+    "step": 9,
+    "source_state_id": "wooden_cube_n10_s0000000009",
+    "old_baseline_id": "wooden_cube_n10_s0000000009",
+    "new_baseline_id": "wooden_cube_n08_s0000000009",
+    "old_prompt": "A studio photograph of exactly ten wooden cubes on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "new_prompt": "A studio photograph of exactly eight wooden cubes on a plain light gray surface against a plain light gray background. All objects are fully visible. No other objects. No text.",
+    "object_text": "wooden cubes",
+    "index": 2798,
+    "velocity_index": 2798,
+    "velocity_id": "velocity__wooden_cube_n10_s0000000009__to08__s09"
+  },
+  "old_reproduction": {
+    "comparable": true,
+    "equal": true,
+    "max_abs": 0.0
+  },
+  "seconds": 2.206599235534668,
+  "worker": "gpu5",
+  "completed_at": "2026-09-27T16:54:59+0800"
+}

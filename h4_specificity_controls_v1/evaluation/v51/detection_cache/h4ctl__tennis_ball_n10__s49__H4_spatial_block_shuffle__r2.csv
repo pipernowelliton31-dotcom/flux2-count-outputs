@@ -1,0 +1,2 @@
+﻿id,det_idx,query_idx,max_token_idx,confidence,cx_norm,cy_norm,w_norm,h_norm,keep_020,keep_023,keep_026
+h4ctl__tennis_ball_n10__s49__H4_spatial_block_shuffle__r2,0,1,1,0.3133917450904846,0.7702061533927917,0.5709555745124817,0.3470091223716736,0.2305288165807724,True,True,True
