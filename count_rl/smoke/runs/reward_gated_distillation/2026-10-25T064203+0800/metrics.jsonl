@@ -1,0 +1,4 @@
+{"round": 0, "event": "collect", "case": "apple_n08_s0000010000", "target": 8, "count_plain": 8, "count_teacher": null, "weight": 0.0, "skipped_teacher": true, "reason_plain": "", "reason_teacher": "", "scores_plain": [0.9689314365386963, 0.9711522459983826, 0.9704011082649231, 0.9384275674819946, 0.9682263731956482, 0.8152642846107483, 0.9242936372756958, 0.8842076659202576], "scores_teacher": null, "time": "2026-10-25T06:44:51+0800"}
+{"round": 0, "event": "gate_rate", "accepted": 0, "n": 1, "time": "2026-10-25T06:44:51+0800"}
+{"round": 0, "pass": 0, "update": 1, "lr": 1.25e-06, "grad_norm": 0.0, "flush": true, "time": "2026-10-25T06:45:05+0800"}
+{"round": 0, "pass": 1, "update": 2, "lr": 2.5e-06, "grad_norm": 0.0, "flush": true, "time": "2026-10-25T06:45:19+0800"}

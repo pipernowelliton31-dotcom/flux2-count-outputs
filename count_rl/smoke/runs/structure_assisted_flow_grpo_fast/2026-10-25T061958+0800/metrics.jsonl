@@ -1,0 +1,2 @@
+{"round": 0, "event": "collect", "case": "apple_n05_s0000010000", "target": 5, "rewards": [0.0, 0.0, 0.0, 0.0], "counts": [-1, -1, -1, -1], "usable_grpo": false, "teacher_weight": 0.0, "teacher_count": -1, "skipped_teacher": true, "time": "2026-10-25T06:28:43+0800"}
+{"round": 0, "update": 1, "lr": 6.25e-07, "grad_norm": 0.0, "case": "apple_n05_s0000010000", "grpo": 0.0, "kl": 0.0, "teacher_weight": 0.0, "usable_grpo": false, "ref": 0.0, "time": "2026-10-25T06:28:48+0800"}

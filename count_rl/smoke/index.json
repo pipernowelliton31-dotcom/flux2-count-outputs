@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-25",
+  "source": "GPU server smoke tests (apple n05 / n08)",
+  "note": "json/jsonl only: configs, metrics, CountGD scores. No images, logs, checkpoints, or weights.",
+  "code_repo": "https://github.com/pipernowelliton31-dotcom/count-rl",
+  "runs": [
+    {
+      "method": "reward_gated_distillation",
+      "version": "A",
+      "case": "apple_n05",
+      "dir": "runs/reward_gated_distillation/2026-10-25T061957+0800"
+    },
+    {
+      "method": "reward_gated_distillation",
+      "version": "A",
+      "case": "apple_n08",
+      "dir": "runs/reward_gated_distillation/2026-10-25T064203+0800"
+    },
+    {
+      "method": "structure_assisted_flow_grpo_fast",
+      "version": "B",
+      "case": "apple_n05",
+      "dir": "runs/structure_assisted_flow_grpo_fast/2026-10-25T061958+0800"
+    },
+    {
+      "method": "structure_assisted_flow_grpo_fast",
+      "version": "B",
+      "case": "apple_n08",
+      "dir": "runs/structure_assisted_flow_grpo_fast/2026-10-25T064614+0800"
+    }
+  ],
+  "countgd": [
+    "countgd/apple_n05.json",
+    "countgd/apple_n08.json"
+  ]
+}
