@@ -1,0 +1,4 @@
+{"round": 0, "event": "collect", "case": "apple_n05_s0000010000", "target": 5, "count_plain": -1, "count_teacher": null, "weight": 0.0, "skipped_teacher": true, "time": "2026-10-25T06:22:30+0800"}
+{"round": 0, "event": "gate_rate", "accepted": 0, "n": 1, "time": "2026-10-25T06:22:30+0800"}
+{"round": 0, "pass": 0, "update": 1, "lr": 1.25e-06, "grad_norm": 0.0, "flush": true, "time": "2026-10-25T06:22:46+0800"}
+{"round": 0, "pass": 1, "update": 2, "lr": 2.5e-06, "grad_norm": 0.0, "flush": true, "time": "2026-10-25T06:23:00+0800"}
