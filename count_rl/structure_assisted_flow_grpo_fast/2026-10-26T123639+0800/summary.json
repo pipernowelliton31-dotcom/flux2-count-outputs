@@ -1,0 +1,110 @@
+{
+  "experiment": "B50 Branch5 distillation + Flow-GRPO",
+  "run_id": "2026-10-26T123639+0800",
+  "method": "structure_assisted_flow_grpo_fast",
+  "source_config": "/home/lsj/flux2-count/count_rl/configs/fast_grpo_b50_branch5.yaml",
+  "completion": {
+    "status": "completed",
+    "exit_code": 0,
+    "finished_at": "2026-10-26T19:13:41+0800"
+  },
+  "model": {
+    "backbone": "FLUX.2-klein-base-9B",
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "branch_after_completed_steps": 5
+  },
+  "training": {
+    "planned_groups": 50,
+    "collected_groups": 50,
+    "rounds_completed": 5,
+    "parameter_updates": 12,
+    "skipped_updates": 38,
+    "grpo_usable_groups": 6,
+    "teacher_weight_positive_groups": 9,
+    "teacher_skipped_groups": 13,
+    "invalid_reward_groups": 0
+  },
+  "training_time_metrics_not_independent_evaluation": {
+    "mean_reward": 0.611967,
+    "countgd_exact_count_rate": 0.255,
+    "countgd_mean_absolute_count_error": 1.71,
+    "note": "CountGD scores are in-training rewards on varying train cases, not a fixed held-out evaluation."
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "groups_collected": 10,
+      "grpo_usable_groups": 1,
+      "teacher_weight_positive_groups": 2,
+      "teacher_skipped_groups": 0,
+      "parameter_updates": 3,
+      "skipped_updates": 7,
+      "mean_reward": 0.390417,
+      "countgd_exact_count_rate": 0.0,
+      "countgd_mean_absolute_count_error": 2.125
+    },
+    {
+      "round": 1,
+      "groups_collected": 10,
+      "grpo_usable_groups": 2,
+      "teacher_weight_positive_groups": 1,
+      "teacher_skipped_groups": 2,
+      "parameter_updates": 2,
+      "skipped_updates": 8,
+      "mean_reward": 0.491293,
+      "countgd_exact_count_rate": 0.2,
+      "countgd_mean_absolute_count_error": 3.025
+    },
+    {
+      "round": 2,
+      "groups_collected": 10,
+      "grpo_usable_groups": 1,
+      "teacher_weight_positive_groups": 0,
+      "teacher_skipped_groups": 3,
+      "parameter_updates": 1,
+      "skipped_updates": 9,
+      "mean_reward": 0.633958,
+      "countgd_exact_count_rate": 0.275,
+      "countgd_mean_absolute_count_error": 1.575
+    },
+    {
+      "round": 3,
+      "groups_collected": 10,
+      "grpo_usable_groups": 1,
+      "teacher_weight_positive_groups": 4,
+      "teacher_skipped_groups": 4,
+      "parameter_updates": 4,
+      "skipped_updates": 6,
+      "mean_reward": 0.778333,
+      "countgd_exact_count_rate": 0.4,
+      "countgd_mean_absolute_count_error": 0.85
+    },
+    {
+      "round": 4,
+      "groups_collected": 10,
+      "grpo_usable_groups": 1,
+      "teacher_weight_positive_groups": 2,
+      "teacher_skipped_groups": 4,
+      "parameter_updates": 2,
+      "skipped_updates": 8,
+      "mean_reward": 0.765833,
+      "countgd_exact_count_rate": 0.4,
+      "countgd_mean_absolute_count_error": 0.975
+    }
+  ],
+  "artifacts": {
+    "config": "config.json",
+    "metrics": "logs/metrics.jsonl",
+    "final_checkpoint": "checkpoints/lora_final.pt",
+    "round_checkpoints": [
+      "checkpoints/lora_round0.pt",
+      "checkpoints/lora_round1.pt",
+      "checkpoints/lora_round2.pt",
+      "checkpoints/lora_round3.pt",
+      "checkpoints/lora_round4.pt"
+    ],
+    "checkpoints_committed_to_repo": false,
+    "generated_images_committed_to_repo": false
+  }
+}

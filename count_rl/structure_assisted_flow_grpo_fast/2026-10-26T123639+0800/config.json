@@ -1,0 +1,150 @@
+{
+  "experiment": {
+    "schema": 1,
+    "name": "structure_count_rl",
+    "output_root": "/data/storage22t/lsj/flux2-count/outputs/count_rl"
+  },
+  "model": {
+    "backbone": "FLUX.2-klein-base-9B",
+    "path": "/data/storage22t/lsj/models/FLUX.2-klein-base-9B",
+    "local_files_only": true,
+    "dtype": "bfloat16",
+    "height": 1024,
+    "width": 1024,
+    "steps": 50,
+    "guidance": 4.0,
+    "generator_device": "cpu",
+    "decode_offload_transformer": true,
+    "gradient_checkpointing": true,
+    "offload_text_encoder_after_precompute": true
+  },
+  "lora": {
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.0,
+    "train_bias": false,
+    "dual_suffixes": [
+      "attn.to_q",
+      "attn.to_k",
+      "attn.to_v",
+      "attn.to_out.0",
+      "attn.add_q_proj",
+      "attn.add_k_proj",
+      "attn.add_v_proj",
+      "attn.to_add_out"
+    ],
+    "single_suffixes": [
+      "attn.to_qkv_mlp_proj",
+      "attn.to_out"
+    ]
+  },
+  "branch_after_completed_steps": 5,
+  "teacher_guidance_scale": 1.0,
+  "keep_steps": [
+    10,
+    20,
+    40
+  ],
+  "prompt": {
+    "spec_name": "structured_exact_counting_10x5_n6_10",
+    "categories": [
+      "apple",
+      "orange",
+      "lemon",
+      "tennis_ball",
+      "baseball",
+      "mug",
+      "bottle",
+      "toy_car",
+      "rubber_duck",
+      "wooden_cube"
+    ],
+    "targets": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "train_seed_start": 10000,
+    "eval_seeds": [
+      20000,
+      20001
+    ]
+  },
+  "reward": {
+    "backend": "countgd",
+    "countgd_root": "/data/storage22t/lsj/repos/CountGD",
+    "countgd_python": "/data/storage22t/lsj/conda/envs/countgd/bin/python",
+    "layout_v51_root": "/home/lsj/layout_v51_conservative",
+    "device": "cuda",
+    "confidence_threshold": 0.26,
+    "exact_bonus": 0.3,
+    "gain_scale": 0.5,
+    "max_plausible_count": 40,
+    "max_retries": 2,
+    "offload_transformer_before_eval": false
+  },
+  "sde": {
+    "kernel": "ddim_cps",
+    "eta": 0.3,
+    "noise_coeff": 0.3,
+    "std_cap_on_next": 0.95,
+    "min_std": 1e-06
+  },
+  "eval": {
+    "n_images": 100,
+    "use_teacher": false,
+    "use_best_of_g": false,
+    "ode_only": true,
+    "decode_batch_size": 16
+  },
+  "_config_path": "/home/lsj/flux2-count/count_rl/configs/fast_grpo_b50_branch5.yaml",
+  "method": "structure_assisted_flow_grpo_fast",
+  "use_grpo": true,
+  "use_sde": true,
+  "group_size": 4,
+  "sde_steps_per_trajectory": 1,
+  "teacher_actions_per_group": 1,
+  "teacher_trigger": "half_inexact",
+  "teacher_noise_source": "none",
+  "teacher_tail": "structured_ode",
+  "loss": {
+    "ppo_clip_epsilon": 0.1,
+    "distillation": "gaussian_mean_kl",
+    "teacher_weight": 0.05,
+    "reward_gate": "positive_reward_gain",
+    "behavior_keep_weight": 0.0,
+    "reference_kl_weight": 0.01,
+    "advantage_std_eps": 1e-08
+  },
+  "optimizer": {
+    "lr": 5e-06,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "weight_decay": 0.0,
+    "grad_clip": 1.0,
+    "warmup_updates": 8,
+    "microbatch": 1,
+    "grad_accum": 1,
+    "ppo_epochs_per_rollout": 1,
+    "max_cache_passes": 1
+  },
+  "budget": {
+    "n_train_groups": 50,
+    "n_rounds": 5,
+    "groups_per_round": 10,
+    "max_images": 250,
+    "max_updates_per_round": 10,
+    "quota": {
+      "5": 0,
+      "6": 10,
+      "7": 10,
+      "8": 10,
+      "9": 10,
+      "10": 10
+    }
+  }
+}
